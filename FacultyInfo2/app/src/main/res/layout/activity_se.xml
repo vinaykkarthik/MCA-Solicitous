@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.se">
+
+    <TextView
+        android:id="@+id/se"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:textColor="#000000"
+        android:text="Software Engineering Interview Questions ( Basics )\n\n
+
+1.	What is software process or Software Development Life Cycle (SDLC)\n\n
+
+Ans: Software Development Life Cycle, or software process is the systematic development of software by following every stage in the development process namely, Requirement Gathering, System Analysis, Design, Coding, Testing, Maintenance and Documentation in that order.\n\n
+
+2.	What are SDLC models available?\n\n
+
+Ans: There are several SDLC models available such as Waterfall Model, Iterative Model, Spiral model, V-model and Big-bang Model etc.\n\n
+
+3.	What is software scope?\n\n
+	Ans: Software scope is a well-defined boundary, which encompasses all the activities that are done to develop and deliver the software product.The software scope clearly defines all functionalities and artifacts to be delivered as a part of the software. The scope identifies what the product will do and what it will not do, what the end product will contain and what it will not contain.\n\n
+4.	 What is project estimation?\n\n
+	Ans: It is a process to estimate various aspects of software product in order to calculate the cost of development in terms of efforts, time and resources. This estimation can be derived from past experience, by consulting experts or by using pre-defined formulas. \n\n
+5.	 How can we derive the size of software product? \n\n
+	Ans: Size of software product can be calculated using either of two methods - \n
+•	Counting the lines of delivered code \n
+•	Counting delivered function points\n\n
+6.	 What are function points?\n\n
+	Ans: Function points are the various features provided by the software product. It is considered as a unit of measurement for software size.  \n\n
+7.	 What is Software configuration management?\n\n
+	Ans: Software Configuration management is a process of tracking and controlling the changes in software in terms of the requirements, design, functions and development of the product. \n\n
+8.	 What are software requirements?\n\n
+	Ans: Software requirements are functional description of proposed software system. Requirements are assumed to be the description of target system, its functionalities and features. Requirements convey the expectations of users from the system. \n\n
+9.	 What is feasibility study?\n\n
+	Ans: It is a measure to assess how practical and beneficial the software project development will be for an organization. The software analyzer conducts a thorough study to understand economic, technical and operational feasibility of the project.\n
+•	Economic - Resource transportation, cost for training, cost of additional utilities and tools and overall estimation of costs and benefits of the project.\n
+•	Technical - Is it possible to develop this system ? Assessing suitability of machine(s) and operating system(s) on which software will execute, existing developers’ knowledge and skills, training, utilities or tools for project.\n
+•	Operational - Can the organization adjust smoothly to the changes done as per the demand of project ? Is the problem worth solving ? \n\n
+10.	How can you gather requirements?\n\n
+
+Ans: Requirements can be gathered from users via interviews, surveys, task analysis, brainstorming, domain analysis, prototyping, studying existing usable version of software, and by observation.\n\n
+
+11.	What is SRS?\n\n
+	Ans: SRS or Software Requirement Specification is a document produced at the time of requirement gathering process. It can be also seen as a process of refining requirements and documenting them.	\n\n
+12.	What is black-box and white-box testing?\n\n
+	Ans: Black-box testing checks if the desired outputs are produced when valid input values are given. It does not verify the actual implementation of the program.\n
+White-box testing not only checks for desired and valid output when valid input is provided but also it checks if the code is implemented correctly. \n
+
+Criteria	Black Box Testing	White Box Testing\n
+Knowledge of software program, design and structure essential	No	Yes\n
+Knowledge of Software Implementation essential	No	Yes\n
+Who conducts this test on software	Software Testing Employee	Software Developer\n
+baseline reference for tester	Requirements specifications	Design and structure details\n\n
+
+
+13.	What is cohesion and coupling?\n\n
+	Ans: Coupling is a measure that defines the level of inter-dependability among modules of a program. Cohesion is a measure that defines the degree of intra-dependability among the elements of the module.\n\n
+14.	 What is software metric?\n\n
+	Ans: Software Metrics provide measures for various aspects of software process and software product. They are divided into\n
+•	Requirement metrics : Length requirements, completeness \n
+•	Product metrics :Lines of Code, Object oriented metrics, design and test metrics\n
+•	Process metrics: Evaluate and track budget, schedule, human resource.\n\n
+15.	Differentiate validation and verification?\n\n
+	Ans: Validation checks if the product is made as per user requirements whereas verification checks if proper steps are followed to develop the product. Validation confirms the right product and verification confirms if the product is built in a right way.\n\n
+16.	What is software metric?\n\n
+	Ans: Software Metrics provide measures for various aspects of software process and software product. They are divided into –\n
+•	Requirement metrics : Length requirements, completeness \n
+•	Product metrics :Lines of Code, Object oriented metrics, design and test metrics\n
+•	Process metrics: Evaluate and track budget, schedule, human resource.\n\n
+
+17.	 What is level-0 DFD?\n\n
+	Ans: Highest abstraction level DFD is known as Level 0 DFD also called a context level DFD, which depicts the entire information system as one diagram concealing all the underlying details.\n\n
+18.	Briefly define top-down and bottom-up design model.\n\n
+	Ans: Top-down model starts with generalized view of system and decomposes it to more specific ones, whereas bottom-up model starts with most specific and basic components first and keeps composing the components to get higher level of abstraction.\n\n
+19.	.What is software re-engineering?\n\n
+	Ans: Software re-engineering is process to upgrade the technology on which the software is built without changing the functionality of the software. This is done in order to keep the software tuned with the latest technology.\n\n
+20.	Quality assurance vs. Quality Control?\n\n
+
+Ans: Quality Assurance monitors to check if proper process is followed while software developing the software.Quality Control deals with maintaining the quality of software product.\n\n
+
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.351" />
+</android.support.constraint.ConstraintLayout>

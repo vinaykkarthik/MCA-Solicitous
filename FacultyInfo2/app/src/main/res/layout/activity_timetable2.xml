@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.timetable2">
+
+    <TextView
+        android:id="@+id/T2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:text="              Monday\n\n
+
+
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 14CA220\n\n
+
+SUBJECT NAME  : OBJECT ORIENTED ANALYSIS AND DESGIN\n\n
+
+
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 14CAPAO/14CAPBO\n\n
+
+SUBJECT NAME  : COMPONENT BASED TECHNOLOGIES\n\n
+
+		PROGRAMMING IN C# USING .NET\n\n
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+SUBJECT CODE  : 14CAPCO/14CAPFO\n\n
+
+SUBJECT NAME  : SOFTWARE PROJECT MANAGEMENT\n\n
+
+		SUPPLY CHAIN MANAGEMENT\n\n
+
+
+Timing        : 12.15pm - 1.15pm\n\n
+
+SUBJECT CODE  : 14CA210\n\n
+
+SUBJECT NAME  : ELECTRONIC COMMERCE AND ELECTRONIC BUSINESS\n\n
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+SUBJECT CODE  : 17CA470/14CA480\n\n
+
+SUBJECT NAME  : WEB TECHNOLOGIES\n\n
+
+		SOFTWARE ENGINEERING\n\n
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+SUBJECT CODE  : 17CA470/14CA480\n\n
+
+SUBJECT CODE  : WEB TECHNOLOGIES\n\n
+
+		SOFTWARE ENGINEERING\n\n
+
+
+
+
+
+
+
+                Tuesday\n\n
+
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 14CA410\n\n
+
+SUBJECT NAME  : ELECTRONIC COMMERCE AND ELECTRONIC BUSINESS\n\n
+
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 14CAPCO/14CAPFO\n\n
+
+SUBJECT NAME  : SOFTWARE PROJECT MANAGEMENT\n\n
+
+		SUPPLY CHAIN MANAGEMENT\n\n
+
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+SUBJECT CODE  : 17CA470/14CA480\n\n
+
+SUBJECT NAME  : WEB TECHNOLOGIES\n\n
+
+		SOFTWARE ENGINEERING\n\n
+
+
+TIMING        : 12.15pm - 1.15pm\n\n
+
+SUBJECT CODE  : 17CA470/14CA480\n\n
+
+SUBJECT NAME  : WEB TECHNOLOGIES\n\n
+
+		SOFTWARE ENGINEERING\n\n
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+SUBJECT CODE  : 14CAPEO/14CAPGO\n\n
+
+SUBJECT NAME  : WIRELESS AD HOC NETWORKS\n\n
+
+		MANAGERIAL ECONOMICS\n\n
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+		LIBRARY\n\n
+
+
+              wednesday\n\n
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 14CA420(T)\n\n
+
+SUBJECT NAME  : OBJECT ORIENTED ANALYSIS AND DESGIN\n\n
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 14CAPAO/14CAPBO\n\n
+
+SUBJECT NAME  : COMPONENT BASED TECHNOLOGIES\n\n
+
+		PROGRAMMING IN C# USING .NET\n\n
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+SUBJECT CODE  : 14CA410\n\n
+
+SUBJECT NAME  : ELECTRONIC COMMERCE AND ELECTRONIC BUSINESS\n\n
+
+
+TIMING        : 12.15pm - 1.15pm\n\n
+
+                LIBRARY\n\n
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+	`	PRE-PLACEMENT\n\n
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+		PRE-PLACEMENT\n\n
+
+
+
+               Thursday\n\n
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 14CA420\n\n
+
+SUBJECT NAME  : OBJECT ORIENTED ANALYSIS AND DESGIN\n\n
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 14CAPCO/14CAPFO\n\n
+
+SUBJECT NAME  : SOFTWARE PROJECT MANAGEMENT\n\n
+
+                SUPPLY CHAIN MANAGEMENT\n\n
+
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+                STUD_CLUB\n\n
+
+
+
+TIMING        : 12.15pm - 1.15pm\n\n
+
+SUBJECT CODE  : 14CAPEO/14CAPGO\n\n
+
+SUBJECT NAME  : WIRELESS AD HOC NETWORKS\n\n
+
+		MANAGERIAL ECONOMICS\n\n
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+                MINI PROJECT\n\n
+
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+                MINI PROJECT\n\n
+
+
+
+               Friday\n\n
+
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 14CA410\n\n
+
+SUBJECT NAME  : ELECTRONIC COMMERCE AND ELECTRONIC BUSINESS\n\n
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+                LIBRARY\n\n
+
+
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+SUBJECT CODE  : 14CAPEO/14CAPGO\n\n
+
+SUBJECT NAME  : WIRELESS AD HOC NETWORKS\n\n
+
+		MANAGERIAL ECONOMICS\n\n
+
+
+
+
+TIMING        : 12.15pm - 1.15pm\n\n
+
+                SEMINAR\n\n
+
+
+
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+SUBJECT CODE  : 14CAPAO/14CAPBO\n\n
+
+SUBJECT NAME  : COMPONENT BASED TECHNOLOGIES\n\n
+
+		PROGRAMMING IN C# USING .NET\n\n
+
+
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+SUBJECT CODE  : 14CA420\n\n
+
+SUBJECT NAME  : OBJECT ORIENTED ANALYSIS AND DESGIN\n\n"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

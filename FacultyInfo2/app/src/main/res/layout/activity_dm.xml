@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.dm">
+
+    <TextView
+        android:id="@+id/dm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:textColor="#000000"
+
+        android:text="DATA WAREHOUSE and DATA MINING InterView QUESTIONS:\n\n
+1.	What is data warehouse?\n\n
+o	A data warehouse is a electronic storage of an Organization's historical data for the purpose of reporting, analysis and data mining or knowledge discovery.\n\n
+________________________________________\n
+2.	What is the benefits of data warehouse?\n\n
+o	 A data warehouse helps to integrate data and store them historically so that we can analyze different aspects of business including, performance analysis, trend, prediction etc. over a given time frame and use the result of our analysis to improve the efficiency of business processes.\n\n
+________________________________________\n
+3.	What is the difference between OLTP and OLAP?\n\n
+o	OLTP is the transaction system that collects business data. Whereas OLAP is the reporting and analysis system on that data.\n
+OLTP systems are optimized for INSERT, UPDATE operations and therefore highly normalized. On the other hand, OLAP systems are deliberately denormalized for fast data retrieval through SELECT operations.\n\n
+________________________________________\n
+4.	What is data mart?\n\n
+o	Data marts are generally designed for a single subject area. An organization may have data pertaining to different departments like Finance, HR, Marketting etc. stored in data warehouse and each department may have separate data marts. These data marts can be built on top of the data warehouse.\n
+________________________________________\n
+5.	What is dimension?\n\n
+o	A dimension is something that qualifies a quantity (measure).\n
+For an example, consider this: If I just say… “20kg”, it does not mean anything. But if I say, 20kg of Rice (Product) is sold to Ramesh (customer) on 5th April (date), then that gives a meaningful sense. These product, customer and dates are some dimension that qualified the measure - 20kg.\n
+    Dimensions are mutually independent. Technically speaking, a dimension is a data element that categorizes each item in a data set into non-overlapping regions.\n
+    ________________________________________\n
+    6.	What is Fact?\n\n
+    o	A fact is something that is quantifiable (Or measurable). Facts are typically (but not always) numerical values that can be aggregated.\n\n
+    ________________________________________\n
+    7.	Briefly state different between data ware house and data mart?\n\n
+    o	Dataware house is made up of many datamarts. DWH contain many subject areas. but data mart focuses on one subject area generally. e.g. If there will be DHW of bank then there can be one data mart for accounts, one for Loans etc. This is high level definitions. Metadata is data about data. e.g. if in data mart we are receving any file. then metadata will contain information like how many columns, file is fix width/elimted, ordering of fileds, dataypes of field etc...\n\n
+    ________________________________________\n
+    8.	What is the difference between dependent data warehouse and independent data warehouse?\n\n
+    o	There is a third type of Datamart called Hybrid. The Hybrid datamart having source data from Operational systems or external files and central Datawarehouse as well. I will definitely check for Dependent and Independent Datawarehouses and update.\n\n
+    ________________________________________\n
+    9.	What are the storage models of OLAP?\n\n
+    o	 ROLAP, MOLAP and HOLAP\n\n
+    ________________________________________\n
+    10.	What are CUBES?\n\n
+    o	A data cube stores data in a summarized version which helps in a faster analysis of data. The data is stored in such a way that it allows reporting easily.\n
+    o	E.g. using a data cube A user may want to analyze weekly, monthly performance of an employee. Here, month and week could be considered as the dimensions of the cube.\n\n
+    ________________________________________\n
+    11.	What is MODEL in Data mining world?\n\n
+    o	Models in Data mining help the different algorithms in decision making or pattern matching. The second stage of data mining involves considering various models and choosing the best one based on their predictive performance.\n\n
+    ________________________________________\n
+    12.	Explain how to mine an OLAP cube.\n\n
+    o	A data mining extension can be used to slice the data the source cube in the order as discovered by data mining. When a cube is mined the case table is a dimension.\n\n
+    ________________________________________\n
+    13.	Explain how to use DMX-the data mining query language.\n\n
+    o	Data mining extension is based on the syntax of SQL. It is based on relational concepts and mainly used to create and manage the data mining models. DMX comprises of two types of statements: Data definition and Data manipulation. Data definition is used to define or create new models, structures.\n\n
+    ________________________________________\n
+    14.	Define Rollup and cube.\n\n
+    o	Custom rollup operators provide a simple way of controlling the process of rolling up a member to its parents values.The rollup uses the contents of the column as custom rollup operator for each member and is used to evaluate the value of the member’s parents.\n
+    If a cube has multiple custom rollup formulas and custom rollup members, then the formulas are resolved in the order in which the dimensions have been added to the cube.\n\n
+    ________________________________________\n
+    15.	Differentiate between Data Mining and Data warehousing.\n\n
+    o	Data warehousing is merely extracting data from different sources, cleaning the data and storing it in the warehouse. Where as data mining aims to examine or explore the data using queries. These queries can be fired on the data warehouse. Explore the data in data mining helps in reporting, planning strategies, finding meaningful patterns etc.\n
+    E.g. a data warehouse of a company stores all the relevant information of projects and employees. Using Data mining, one can use this data to generate different reports like profits generated etc.\n\n
+    ________________________________________\n
+    16.	What is Discrete and Continuous data in Data mining world?\n\n
+    o	Discreet data can be considered as defined or finite data. E.g. Mobile numbers, gender. Continuous data can be considered as data which changes continuously and in an ordered fashion. E.g. age\n\n
+
+    17.	What is a Decision Tree Algorithm?\n\n
+    o	A decision tree is a tree in which every node is either a leaf node or a decision node. This tree takes an input an object and outputs some decision. All Paths from root node to the leaf node are reached by either using AND or OR or BOTH. The tree is constructed using the regularities of the data. The decision tree is not affected by Automatic Data Preparation.\n\n
+    ________________________________________\n
+    18.	What is Naïve Bayes Algorithm?\n\n
+    o	Naïve Bayes Algorithm is used to generate mining models. These models help to identify relationships between input columns and the predictable columns. This algorithm can be used in the initial stage of exploration. The algorithm calculates the probability of every state of each input column given predictable columns possible states. After the model is made, the results can be used for exploration and making predictions.\n\n
+    ________________________________________\n
+    19.	Explain clustering algorithm.\n\n
+    o	Clustering algorithm is used to group sets of data with similar characteristics also called as clusters. These clusters help in making faster decisions, and exploring data. The algorithm first identifies relationships in a dataset following which it generates a series of clusters based on the relationships. The process of creating clusters is iterative. The algorithm redefines the groupings to create clusters that better represent the data.
+    ________________________________________\n
+    20.	Explain Association algorithm in Data mining?\n\n
+    o	Association algorithm is used for recommendation engine that is based on a market based analysis. This engine suggests products to customers based on what they bought earlier. The model is built on a dataset containing identifiers. These identifiers are both for individual cases and for the items that cases contain. These groups of items in a data set are called as an item set. The algorithm traverses a data set to find items that appear in a case. MINIMUM_SUPPORT parameter is used any associated items that appear into an item set.\n\n
+    ________________________________________\n
+    21.	What are the goals of data mining?\n\n
+    o	Prediction, identification, classification and optimization\n\n
+    ________________________________________\n
+
+    22.	Is data mining independent subject?\n\n
+    o	No, it is interdisciplinary subject. includes, database technology, visualization, machine learning, pattern recognition, algorithm etc.\n\n
+    ________________________________________\n
+    23.	What are different types of database?\n\n
+    o	Relational database, data warehouse and transactional database.\n\n
+    ________________________________________\n
+    24.	What are data mining functionality?\n\n
+    o	Mining frequent pattern, association rules, classification and prediction, clustering, evolution analysis and outlier Analise\n\n
+    ________________________________________\n
+    25.	What are issues in data mining?\n\n
+    o	Issues in mining methodology, performance issues, user interactive issues, different source of data types issues etc.\n\n
+    ________________________________________\n
+    26.	List some applications of data mining.\n\n
+    o	Agriculture, biological data analysis, call record analysis, DSS, Business intelligence system etc\n\n
+    ________________________________________\n
+    27.	What do you mean by interesting pattern?\n\n
+    o	A pattern is said to be interesting if it is 1. easily understood by human 2. valid 3. potentially useful 4. novel\n\n
+    ________________________________________\n
+    28.	Why do we pre-process the data?\n\n
+    o	To ensure the data quality. [accuracy, completeness, consistency, timeliness, believability, interpret-ability]\n\n
+    ________________________________________\n
+    29.	What are the steps involved in data pre-processing?\n\n
+    o	Data cleaning, data integration, data reduction, data transformation.\n\n
+    ________________________________________\n
+    30.	What is distributed data warehouse?\n\n
+    o	Distributed data warehouse shares data across multiple data repositories for the purpose of OLAP operation.\n\n
+    ________________________________________\n
+    31.	Define virtual data warehouse.\n\n
+    o	A virtual data warehouse provides a compact view of the data inventory. It contains meta data and uses middle-ware to establish connection between different data sources.\n\n
+    ________________________________________\n
+    32.	What is are different data warehouse model?\n\n
+    o	Enterprise data ware houst\n
+    o	Data marts\n
+    o	Virtual Data warehouse\n
+    ________________________________________\n
+    33.	List few roles of data warehouse manager.\n\n
+    o	Creation of data marts, handling users, concurrency control, updation etc,\n\n
+    ________________________________________\n
+    34.	What are different types of cuboids?\n\n
+    o	0-D cuboids are called as apex cuboids\n
+    o	n-D cuboids are called base cuboids\n
+    o	Middle cuboids\n\n
+    ________________________________________\n
+    35.	What are the forms of multidimensional model?\n\n
+    o	Star schema\n
+    o	Snow flake schema\n
+    o	Fact constellation Schema\n\n
+    ________________________________________\n
+    36.	What are frequent pattern?\n\n
+    o	A set of items that appear frequently together in a transaction data set.\n
+    o	eg milk, bread, sugar\n\n
+    ________________________________________\n
+
+    37.	What are the issues regarding classification and prediction?\n\n
+    o	Preparing data for classification and prediction\n
+    o	Comparing classification and prediction\n\n
+    ________________________________________\n
+    38.	Define model over fitting.\n\n
+    o	A model that fits training data well can have generalization errors. Such situation is called as model over fitting.\n\n
+    ________________________________________\n
+    39.	What are the methods to remove model over fitting?\n\n
+    o	Pruning [Pre-pruning and post pruning)\n
+    o	Constraint in the size of decision tree\n
+    o	Making stopping criteria more flexible\n\n
+    ________________________________________\n
+    40.	What is regression?\n
+    o	Regression can be used to model the relationship between one or more independent and dependent variables.\n
+    o	Linear regression and non-linear regression\n\n
+    ________________________________________\n
+    41.	Compare K-mean and K-mediods algorithm.\n\n
+    o	K-mediods is more robust than k-mean in presence of noise and outliers. K-Mediods can be computationally costly.\n\n
+    ________________________________________\n
+    42.	What is K-nearest neighbor  algorithm?\n\n
+    o	It is one of the lazy learner algorithm used in classification. It finds the k-nearest neighbor of the point of interest.\n\n
+    ________________________________________\n
+    43.	What is Baye's Theorem?\n\n
+    o	P(H/X) = P(X/H)* P(H)/P(X)\n
+    ________________________________________\n
+    44.	What is concept Hierarchy?\n\n
+    o	It defines a sequence of mapping from a set of low level concepts to higher -level, more general concepts.\n\n
+    45.	What are the causes of model over fitting?\n\n
+    o	Due to presence of noise\n
+    o	Due to lack of representative samples\n
+    o	Due to multiple comparison procedure\n
+    ________________________________________\n
+    46.	What is decision tree classifier?\n\n
+    o	A decision tree is an hierarchically based classifier which compares data with a range of properly selected features.\n
+    ________________________________________\n
+    47.	If there are n dimensions, how many cuboids are there?\n\n
+    o	There would be 2^n cuboids.\n
+    ________________________________________\n
+    48.	What is spatial data mining?\n\n
+    o	Spatial data mining is the  process of discovering interesting, useful, non-trivial patterns from large spatial datasets.\n
+    Spatial Data Mining = Mining Spatial Data Sets (i.e. Data Mining + Geographic Information Systems)\n\n
+    ________________________________________\n
+    49.	What is multimedia data mining?\n\n
+    o	Multimedia Data Mining is a subfield of data mining that deals with an extraction of implicit knowledge, multimedia data relationships, or other patterns not explicitly stored in multimedia databases\n\n
+    ________________________________________\n
+    50.	What are different types of multimedia data?\n\n
+    o	image, video, audio\n
+    ________________________________________\n
+    51.	What is text mining?\n\n
+    o	Text mining is the procedure of synthesizing information, by analyzing relations, patterns, and rules among textual data. These procedures contains text summarization, text categorization, and text clustering.\n\n
+    ________________________________________\n
+
+    52.	List some application of text mining.\n\n
+    o	Customer profile analysis\n
+    o	patent analysis\n
+    o	Information dissemination\n
+    o	Company resource planning\n
+    ________________________________________\n
+    53.	What do you mean by web content mining?\n
+    o	Web content mining refers to the discovery of useful information from Web contents, including text, images, audio, video, etc.\n
+    ________________________________________\n
+    54.	Define web structure mining and web usage mining.\n
+    o	Web structure mining studies the model underlying the link structures of the Web. It has been used for search engine result ranking and other Web applications.\n\n
+
+    Web usage mining focuses on using data mining techniques to analyze search logs to find interesting patterns. One of the main applications of Web usage mining is its use to learn user profiles.\n\n    ________________________________________
+    55.	What is data warehouse?\n\n
+    o	A data warehouse is a electronic storage of an Organization's historical data for the purpose of reporting, analysis and data mining or knowledge discovery.\n\n
+    ________________________________________\n
+    56.	What is data warehouse?\n\n
+    o	A data warehouse is a electronic storage of an Organization's historical data for the purpose of reporting, analysis and data mining or knowledge discovery.\n\n
+    ________________________________________\n
+    57.	What is data warehouse?\n\n
+    o	A data warehouse is a electronic storage of an Organization's historical data for the purpose of reporting, analysis and data mining or knowledge discovery.\n\n
+    ________________________________________\n
+    58.	What is data warehouse?\n\n
+        o	A data warehouse is a electronic storage of an Organization's historical data for the purpose of reporting, analysis and data mining or knowledge discovery.\n\n
+    ________________________________________\n
+    59.	What are frequent patterns?\n\n
+    o	These are the patterns that appear frequently in a data set.\n
+    o	item-set, sub sequence, etc\n
+    ________________________________________\n
+    60.	What is data warehouse?\n\n
+    o	A data warehouse is a electronic storage of an Organization's historical data for the purpose of reporting, analysis and data mining or knowledge discovery.\n\n
+    ________________________________________\n
+    61.	What is data characterization?\n\n
+    o	Data Characterization is s summarization of the general features of a target class of data. Example, analyzing software product with sales increased by 10%\n\n
+    ________________________________________\n
+    62.	What is data discrimination?\n
+    o	Data discrimination is the comparison of the general features of the target class objects against one or more contrasting objects.\n
+    ________________________________________\n
+    63.	What can business analysts gain from having a data warehouse?\n\n
+    o	First, having a data warehouse may provide a competitive advantage by presenting relevant information from which to measure performance and make critical adjustments in order to help win over competitors.\n
+    Second, a data warehouse can enhance business productivity because it is able to quickly and efficiently gather information that accurately describes the organization.\n
+    Third, a data warehouse facilitates customer relationship management because it provides a consistent view of  customers and item across all lines of business, all departments and all markets.\n
+    Finally, a data warehouse may bring about cost reduction by tracking trends, patterns, and exceptions over long periods in a consistent and reliable manner.\n\n
+    ________________________________________
+\n
+
+    64.	Why is association rule necessary?\n\n
+    o	In data mining, association rule learning is a popular and well researched method for discovering interesting relations between variables in large databases.\n
+    o	It is intended to identify strong rules discovered in database using different measures of interesting.\n\n
+    ________________________________________\n
+    65.	What are two types of data mining tasks?\n\n
+    o	Descriptive task\n
+    o	Predictive task\n\n
+    ________________________________________\n
+    66.	Define classification.\n\n
+    o	Classification is the process of finding a model (or function) that describes and distinguishes data classes or concepts.\n\n
+    ________________________________________\n
+    67.	What are outliers?\n\n
+    o	A database may contain data objects that do not comply with the general behavior or model of the data. These data objects are called outliers.\n\n
+    ________________________________________\n
+    68.	What do you mean by evolution analysis?\n\n
+    o	Data evolution analysis describes and models regularities or trends for objects whose behavior change over time.\n
+    Although this may include characterization, discrimination, association and correlation analysis, classification, prediction, or clustering of time related data.\n
+    Distinct features of such as analysis include time-series data analysis, sequence or periodicity pattern matching, and similarity-based data analysis.\n\n
+    ________________________________________\n
+    69.	Define KDD.\n\n
+    o	The process of finding useful information and patterns in data.\n
+    ________________________________________\n
+
+
+    70.	What are the components of data mining?\n\n
+    •	Database, Data Warehouse, World Wide Web, or other information repository\n
+    Database or Data Warehouse Server\n
+    Knowledge Based\n
+    Data Mining Engine\n
+    Pattern Evaluation Module\n
+    User Interface\n
+    ________________________________________\n
+    71.	Define metadata.\n\n
+    o	A database that describes various aspects of data in the warehouse is called metadata.\n\n
+    ________________________________________\n
+    72.	What are the usage of metadata?\n\n
+    o	ØMap source system data to data warehouse tables\n
+    ØGenerate data extract, transform, and load procedures for import jobs\n
+    ØHelp users discover what data are in the data warehouse\n
+    ØHelp users structure queries to access data they need\n\n
+    ________________________________________\n
+    73.	List the demerits of distributed data warehouse.\n\n
+    o	ØThere is no metadata, no summary data or no individual DSS (Decision Support System) integration or history. All queries must be repeated, causing additional burden on the system.\n
+    ØSince compete with production data transactions, performance can be degraded.\n
+    ØThere is no refreshing process, causing the queries to be very complex.\n
+
+    ________________________________________\n
+    74.	Define HOLAP.\n\n
+    •	The hybrid OLAP approach combines ROLAP and MOLAP technology.\n\n
+    ________________________________________\n
+    75.	What are data mining techniques?\n
+    o	Association rules\n
+    o	Classification and prediction\n
+    o	Clustering\n
+    o	Deviation detection\n
+    o	Similarity search\n
+    o	Sequence Mining\n\n
+    ________________________________________\n
+    76.	List different data mining tools.\n\n
+    o	Traditional data mining tools\n
+    o	Dashboards\n
+    o	Text mining tools\n
+        ________________________________________\n
+         77.	Define sub sequence.\n\n
+    o	A subsequence, such as buying first a PC, the a digital camera, and then a memory card, if it occurs frequently in a shopping history database, is a (frequent) sequential pattern.\n\n
+    ________________________________________\n
+    78.	What is data warehouse?\n\n
+    o	A data warehouse is a electronic storage of an Organization's historical data for the purpose of reporting, analysis and data mining or knowledge discovery.\n\n
+    ________________________________________\n
+    79.	What is the main goal of data mining?\n
+    o	Prediction\n\n
+
+    80.	List the typical OLAP operations.\n\n
+    o	Roll UP\n
+    o	DRILL DOWN\n
+    o	ROTATE\n
+    o	SLICE AND DICE\n
+    o	DRILL trough and drill across\n\n
+
+    81.	If there are 3 dimensions, how many cuboids are there in cube?\n\n
+    o	2^3 = 8 cuboids\n
+    ________________________________________\n
+    82.	Differentiate between star schema and snowflake schema.\n\n
+    •	Star Schema is a multi-dimension model where each of its disjoint dimension is represented in single table.\n
+    •Snow-flake is normalized multi-dimension schema when each of disjoint dimension is represent in multiple tables.\n
+    •Star schema can become a snow-flake\n
+    •Both star and snowflake schemas are dimensional models; the difference is in their physical implementations.\n
+    •Snowflake schemas support ease of dimension maintenance because they are more normalized.\n
+    •Star schemas are easier for direct user access and often support simpler and more efficient queries.\n
+    •It may be better to create a star version of the snowflaked dimension for presentation to the users\n\n
+    ________________________________________\n
+    83.	List the advantages of star schema.\n\n
+    o	•Star Schema is very easy to understand, even for non technical business manager.\n
+    •Star Schema provides better performance and smaller query times\n
+    •Star Schema is easily extensible and will handle future changes easily\n
+    84.	What are the characteristics of data warehouse?\n\n
+    o	Integrated\n
+    o	Non-volatile\n
+    o	Subject oriented\n
+    o	Time varient\n
+    85.	Define support and confidence.\n\n
+    o	The support for a rule R is the ratio of the number of occurrences of R, given all occurrences of all rules.\n
+    The confidence of a rule X->Y, is the ratio of the number of occurrences of Y given X, among all other occurrences given X\n\n
+    ________________________________________\n
+    86.	What are the criteria on the basic of which classification and prediction can be compared?\n\n
+    o	speed, accuracy, robustness, scalability, goodness of rules, interpret-ability\n
+    ________________________________________\n
+    87.	What is Data purging?\n\n
+    o	The process of cleaning junk data is termed as data purging. Purging data would mean getting rid of unnecessary NULL values of columns. This usually happens when the size of the database gets too large.\n\n
+
+    }"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.22" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.ds">
+
+    <TextView
+        android:id="@+id/ds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:textColor="#000000"
+        android:text="Data Structures Using C Question Bank\n\n
+Q1. List out the areas in which data structures are applied extensively?\n\n
+Ans: Compiler Design, Operating System, Database Management System, Statistical\n
+analysis package, Numerical Analysis, Graphics, Artificial Intelligence, Simulation\n\n
+Q2. What are the major data structures used in the following areas : RDBMS, Network\n
+data model and Hierarchical data model. ?\n\n
+Ans: The major data structures used are as follows:\n
+•RDBMS - Array (i.e. Array of structures)\n
+•Network data model - Graph\n
+•Hierarchical data model - Trees\n\n
+Q3.If you are using C language to implement the heterogeneous linked list, what\n
+pointer type will you use?\n\n
+Ans: The heterogeneous linked list contains different data types in its nodes and we need\n
+a link, pointer to connect them. It is not possible to use ordinary pointers for this. So we\n
+go for void pointer. Void pointer is capable of storing pointer to any type as it is a\n
+generic pointer type.\n\n
+Q4. Minimum number of queues needed to implement the priority queue?\n\n
+Ans: Two. One queue is used for actual storing of data and another for storing\n
+priorities.\n\n
+Q5.What is the data structures used to perform recursion?\n\n
+Ans: Stack. Because of its LIFO (Last In First Out) property it remembers its 'caller' so\n
+knows whom to return when the function has to return. Recursion makes use of system\n
+stack for storing the return addresses of the function calls.\n
+Every recursive function has its equivalent iterative (non-recursive) function. Even when\n
+such equivalent iterative procedures are written, explicit stack is to be used.\n\n
+Q6. What are the notations used in Evaluation of Arithmetic Expressions using prefix\n
+and postfix forms?\n\n
+Ans: Polish and Reverse Polish notations.\n\n
+Q7. How many null nodes will a binary tree with 20 nodes
+have?\n\n Ans: 21
+[Hint: Let us take a tree with 5 nodes (n=5)\n
+It will have only 6 (ie,5+1) null branches.\n
+A binary tree with n nodes has exactly n+1 null nodes.\n\n
+Q8. What are the methods available in storing sequential\n
+files?\n\n
+Ans: The methods available in storing sequential files are:\n
+•Straight merging,\n
+•Natural merging,\n
+•Polyphase sort,\n
+•Distribution of Initial runs.\n\n
+Q9.List out few of the Application of tree datastructure?\n\n
+
+Ans: The list is as follows:\n
+•The manipulation of Arithmetic\n
+expression,\n
+•Symbol Table construction,\n
+•Syntax analysis.\n\n
+Q10. List out few of the applications that make use of Multilinked\n
+Structures?\n\n
+Ans: The applications are listed below:\n
+•Sparse matrix,\n
+•Index generation.\n\n
+Q11.In tree construction which is the suitable efficient data\n
+structure?\n\n
+Ans: Linked list is the efficient data structure.\n\n
+Q12.What is the type of the algorithm used in solving the 8 Queens\n
+problem?\n\n
+Ans: Backtracking\n\n
+Q13.Traverse the given tree using Inorder, Preorder and Postorder traversals.\n
+Ans:
+•Inorder : D H B E A F C I G J\n
+•Preorder: A B D H E C F G I J\n
+•Postorder: H D E B F I J G C A\n\n
+Q 14.There are 8, 15, 13, 14 nodes were there in 4 different trees. Which of them could\n
+have formed a full binary tree?\n\n
+Ans: 15\n
+[Hint : In general:There are 2n-1 nodes in a full binary tree.\n
+By the method of elimination:Full binary trees contain odd number of nodes. So there\n
+cannot be full binary trees with 8 or 14 nodes, so rejected. With 13 nodes you can form a\n
+complete binary tree but not a full binary tree. So the correct answer is 15. ]\n\n
+Q15.In the given binary tree, using array you can store the node 4 at which location?\n\n
+Ans: At location 6\n
+1 2 3 - - 4 -- 5\n
+Root LC1 RC1 LC2 RC2 LC3 RC3 LC4 RC4\n
+where LCn means Left Child of node n and RCn means Right Child of node n\n\n
+Q16.Sort the given values using Quick Sort?\n
+65 70 75 80 85 60 55 50 45\n\n
+Ans: Sorting takes place from the pivot value, which is the first value of the given\n
+elements, this is marked bold. The values at the left pointer and right pointer are\n
+indicated using L and R respectively.\n\n
+65 70L 75 80 85 60 55 50 45R\n
+Since pivot is not yet changed the same process is continued after interchanging the\n
+values at L and R positions\n\n
+65 45 75L\n
+80 85 60 55 50R\n
+70\n
+65 45 50 80L\n
+85 60 55R\n
+75 70\n
+65 45 50 55 85L\n
+60R\n
+80 75 70\n
+65 45 50 55 60R\n
+85L\n
+80 75 70\n
+When the L and R pointers cross each other the pivot value is interchanged with the\n
+value at right pointer. If the pivot is changed it means that the pivot has occupied its\n
+original position in the sorted order (shown in bold italics) and hence two different arrays\n
+are formed, one from start of the original array to the pivot position-1 and the other from\n
+pivot position+1 to end.\n\n
+60L\n
+45 50 55R\n
+65 85L\n
+80 75 70R\n
+55L\n
+5 45 50R\n
+60 65 70R\n
+80L\n
+75 85\n
+50L\n
+45R\n
+55 60 65 70 80L\n
+75R\n
+85\n
+In the next pass we get the sorted form of the array.\n
+45 50 55 60 65 70 75 80 85\n\n
+Q17. For the given graph, draw the DFS and BFS?\n\n
+Ans:
+• BFS: A X G H P E M Y J\n
+• DFS: A X H P E Y M J G\n
+Q18. Classify the Hashing Functions based on the various methods by which the key\n\n
+value is found.\n\n
+Ans: The list of Hashing functions is as follows:\n
+•Direct method\n
+•Subtraction method\n
+•Modulo-Division\n
+method •Digit-Extraction\n
+method •Mid-Square\n
+method •Folding method\n
+•Pseudo-random method\n
+Q19.What are the types of Collision Resolution Techniques and the methods used in\n
+each of the type?\n\n
+Ans: The types of Collision Resolution Techniques are:\n
+•Open addressing (closed hashing)\n
+The methods used include:\n
+•Overflow block\n
+•Closed addressing (open\n
+hashing) The methods used\n\n
+include: •Linked list\n\n
+•Binary tree\n\n
+Q20.In RDBMS, what is the efficient data structure used in the internal\n
+storage representation?\n\n
+Ans: B+ tree. Because in B+ tree, all the data is stored only in leaf nodes, that makes\n
+searching easier. This corresponds to the records that shall be stored in leaf nodes.\n
+Q21.Draw the B-tree of order 3 created by inserting the following data arriving in\n
+sequence - 92 24 6 7 11 8 22 4 5 16 19 20 78\n\n
+Ans.
+Q22. What is a spanning Tree?\n\n
+Ans: A spanning tree is a tree associated with a network. All the nodes of the graph\n
+appear on the tree once. A minimum spanning tree is a spanning tree organized so that\n
+the total edge weight between nodes is minimized.\n\n
+Q23. Does the minimum spanning tree of a graph give the shortest distance between any\n
+2 specified nodes?\n\n
+Ans: No. Minimal spanning tree assures that the total weight of the tree is kept at its\n
+minimum. But it doesn't mean that the distance between any two nodes involved in the\n
+minimum-spanning tree is minimum.\n\n
+Q24.Convert the given graph with weighted edges to minimal spanning tree.\n\n
+Ans: the equivalent minimal spanning tree is:\n\n
+Q25. Whether Linked List is linear or Non-linear data structure?\n\n
+Ans: According to Access strategies Linked list is a linear one.\n
+According to Storage Linked List is a Non-linear one.\n
+Q26.Draw a binary Tree for the expression : A * B - (C + D) * (P /\n\n
+Ans:
+Q27. For the following COBOL code, draw the Binary tree?\n\n
+01 STUDENT_REC.\n
+02 NAME.\n
+03 FIRST_NAME PIC X(10).\n
+03 LAST_NAME PIC X(10).\n
+02 YEAR_OF_STUDY.\n
+03 FIRST_SEM PIC XX.\n
+03 SECOND_SEM PIC XX.\n
+Ans:
+Q28. What is the difference between a queue and a stack?\n\n
+Ans: A queue is typically FIFO (priority queues don't quite follow that) while a stack is\n
+LIFO. Elements get inserted at one end of a queue and retrieved from the other, while\n
+the insertion and removal operations for a stack are done at the same end.\n\n
+Q29.What is the difference between storing data on the heap vs. on the stack?\n\n
+Ans: The stack is smaller, but quicker for creating variables, while the heap is limited in\n
+size only by how much memory can be allocated. Stack would include most compile\n
+time variables, while heap would include anything created with malloc or new. (This is\n
+for C/C++, and not strictly the case.)\n\n
+Q30. Let W be the string ABCD (a) Find the length of W. (b) List all substings of W.\n\n
+Answer: (a) Length = 4\n\n
+(b) ABCD, ABC,BCD, AB,BC, CD, A,B,C,D and null string\n\n
+Q31.Consider the linear arrays AAA(5:50), BBB (-5:10) and CCC(18).\n\n
+(a) Find the number of elements in each array\n
+(b) Suppose Base(AAA) = 300 and w=4 words per memory cell for AAA. Find\n
+the address of AAA[15], AAA[35] and AAA[55]\n\n
+Ans : (a) Length = Upper Bound (UB) – Lower Boun d (LB) +1\n
+Length(AAA) = 50-5+1 = 46\n
+Length(BBB) = 10-(-5)+1 = 16\n
+Length(CCC) = 18-1+1 = 18\n
+(b) Using the formula: LOC(AAA[k]) = Base(AAA)+w(KLB)\n
+LOC(AAA[15] )= 300+4(15-5) = 340\n
+LOC(AAA[35] )= 300+4(35-5) = 420\n
+AAA[55] is not an element of AAA since 55 exceeds UB = 50.\n\n
+Q32.Consider the following stack of characters, where STACK is allocated N = 8 mmory\n\n
+cells\n\n
+STACK : A,C,D,F,K,_,_,_. ( _ means empty allocated cell)\n
+Describe the stack as the following operations takes place:\n\n
+(a) POP(STACK, ITEM)\n
+(b) POP(STACK, ITEM)\n
+(c) POP(STACK, ITEM)\n
+(d) PUSH(STACK, R)\n
+(e) PUSH(STACK,L)\n
+(f) PUSH(STACK, S)\n
+(g) PUSH(STACK,P)\n
+(h) POP(STACK, ITEM)\n\n
+Ans: (a) STACK: A,C,D,F,_,_,_,_\n
+(b) STACK: A,C,D,_,_,_,_,_\n
+(c) STACK: A,C,_,_,_,_,_,_\n
+(d) STACK: A,C,R,_,_,_,_,_\n
+(e) STACK:A,C,R,L,_,_,_,_\n
+(f) STACK:A,C,R,L,S, _ ,_,_\n
+(g) STACK: A,C,R,L,S,P,_,_\n
+(h) STACK: A,C,R,L,S,_,_,_\n\n
+Q33. Consider the problem in Q-32. (a) When will overflow occur? (b) When will C
+be deleted before R?\n\n
+Ans : (a) Since the stack has been allocated 8 memory cells, overflow will occur\n
+when STACK contains 8 elements and there is a PUSH operation to add an element\n
+(b) Since STACK is implemented as a STACK, C will never be deleted before R.\n
+Q34.Translate infix expression into its equivalent post fix expression: (A-B)*(D/E)\n\n
+Ans: (A-B)*(D/E) = [AB-]*[DE/] = AB-DE/*\n\n
+Q35. Translate infix expression into its equivalent post fix expression: (A+B^D)/(EF)+G\n\n
+
+Ans : (A+B^D)/(E-F)+G = (A+BD^])/[EF-]+G = [ABD^+]/[EF-]+G\n
+= [ABD^+EF-/]+G = ABD^+EF-/G\n\n
+Q36.Translate infix expression into its equivalent post fix expression:\n\n
+A*(B+D)/E-F*(G+H/K)\n\n
+Ans: A*(B+D)/E-F*(G+H/K) = A*[BD+]/E-F*(G+[HK/]) = [ABD+*]E-F*[GHK/+] =\n
+[ABD+*E/]-[FGHK/+*] = ABD+*E/FGHK/+*-\n\n
+Q37.Consider the following arithmetic expression P, written in postfix notation :\n\n
+P: 12 , 7 , 3 , - , / , 2 , 1 , 5 , + , * , +\n
+Translate P into infix expression.\n\n
+Ans : P: 12,[7-3],/,2,1,5,+,*,+ =\n
+[12/(7-3)],2,1,5,+,*,+ = [12/(7-\n
+3)],2,[1+5],*,+ = [12/(7-\n
+3)],[2*(1+5)],+ =12/(7-\n
+3)+2*(1+5)\n\n
+Q38.Write an algorithm to traverse a linked list.\n\n
+Answer : 1. Set PTR : = START\n
+2. Repeat steps 3 and 4 while PTR is not equal to NULL.\n
+3. Apply PROCESS to INFO [ PTR]\n
+4. Set PTR: = LINK[PTR]\n
+5. Exit\n\n
+Q39. Evaluate\n\n
+P: 12 , 7 , 3 , - , / , 2 , 1 , 5 , + , * , + , )\n\n
+Ans :\n\n
+Symbol STACK\n
+12 12\n
+7 12,7\n
+3 12,7,3\n
+- 12,4\n
+/ 3\n
+2 3,2\n
+1 3,2,1\n
+5 3,2,1,5\n
++ 3,2,6\n
+* 3,12\n
++ 15\n
+) 15\n\n
+Q40. List out few of the Application of tree data structure?\n\n
+Ans: The list is as follows:\n\n
+•The manipulation of Arithmetic\n
+expression,\n
+•Symbol Table construction,\n
+•Syntax analysis.\n\n
+Q41.What are priority queues?\n\n
+Ans: A priority queue is a collection of elements such that each element has been\n
+assigned a priority\n\n
+Q42. What is the condition to be checked for the multiplication of two matrices?\n\n
+Ans :If matrices are to be multiplied, the number of columns of first matrix should be\n
+equal to the number of rows of second matrix.\n\n
+
+Q43.What is a string?\n\n
+Ans:A sequential array of characters is called a string.\n\n
+Q44. What is use terminating null character?\n\n
+Ans :Null character is used to check the end of string.\n\n
+Q45. What is an empty string?\n\n
+Ans :A string with zero character is called an empty string.\n\n
+Q46. What are the operations that can be performed on a string?\n\n
+Ans:The following are the operations that can be performed on a string: finding the\n
+length of string, copying string, string comparison, string concatenation, finding\n
+substring etc.\n\n
+Q47. What is Brute Force algorithm?\n\n
+Ans :Algorithm used to search the contents by comparing each element of array is\n\n
+called Brute Force algorithm.\n\n
+Q48.What are the limitations of arrays?\n\n
+Ans :The following are the limitations of arrays:\n\n
+Arrays are of fixed size.\n
+Data elements are stored in continuous memory locations which may not be available\n
+always.\n
+Adding and removing of elements is problematic because of shifting the locations.\n\n
+Q49. How can you overcome the limitations of arrays?\n\n
+Ans :Limitations of arrays can be solved by using the linked list.\n\n
+
+INTERVIEW BASED QUESTIONS:\n\n
+
+1.What is data-structure? \n\n
+Data structure is a way of defining, storing and retriving of data in a structural and systemetic way.\n A data structure may contain different type of data items.\n\n
+2.What are various data-structures available? \n\n
+Data structure availability may vary by programming languages.\n Commonly available data structures are list, arrays, stack, queues, graph, tree etc.\n\n
+3.What is algorithm?\n\n
+Algorithm is a step by step procedure, which defines a set of instructions to be executed in certain order to get the desired output.\n\n
+4.Why we need to do algorithm analysis? \n\n
+A problem can be solved in more than one ways. So, many solution algorithms can be derived for a given problem. We analyze available algorithms to find and implement the best suitable algorithm.\n\n
+5.What are the criteria of algorithm analysis? \n\n
+An algorithm are generally analyzed on two factors − time and space. That is, how much execution time and how much extra space required by the algorithm.\n\n
+6.What is asymptotic analysis of an algorithm?\n\n
+Asymptotic analysis of an algorithm, refers to defining the mathematical boundation/framing of its run-time performance. Using asymptotic analysis, we can very well conclude the best case, average case and worst case scenario of an algorithm.\n\n
+7.What are asymptotic notations? \n\n
+Asymptotic analysis can provide three levels of mathematical binding of execution time of an algorithm −\n
+●	Best case is represented by Ω(n) notation.\n
+●	Worst case is represented by Ο(n) notation.\n
+●	Average case is represented by Θ(n) notation.\n\n
+8.What is linear data structure?\n\n
+A linear data-structure has sequentially arranged data items. The next time can be located in the next memory address. It is stored and accessed in a sequential manner. Array and list are example of linear data structure.
+9.What are common operations that can be performed on a data-structure? \n\n
+The following operations are commonly performed on any data-structure −\n
+●	Insertion − adding a data item\n
+●	Deletion − removing a data item\n
+●	Traversal − accessing and/or printing all data items\n
+●	Searching − finding a particular data item\n
+●	Sorting − arranging data items in a pre-defined sequence\n\n
+10.Briefly explain the approaches to develop algorithms.\n\n
+There are three commonly used approaches to develop algorithms −\n
+●	Greedy Approach − finding solution by choosing next best option\n\
+●	Divide and Conquer − diving the problem to a minimum possible sub-problem and solving them independently\n
+●	Dynamic Programming − diving the problem to a minimum possible sub-problem and solving them combinedly\n\n
+Give some examples greedy algorithms. \n\n
+11.The below given problems find their solution using greedy algorithm approach −\n\n
+●	Travelling Salesman Problem\n
+●	Prim's Minimal Spanning Tree Algorithm\n
+●	Kruskal's Minimal Spanning Tree Algorithm\n
+●	Dijkstra's Minimal Spanning Tree Algorithm\n
+●	Graph - Map Coloring\n
+●	Graph - Vertex Cover\n
+●	Knapsack Problem\n
+●	Job Scheduling Problem\n
+12.What are some examples of divide and conquer algorithms? \n\n
+The below given problems find their solution using divide and conquer algorithm approach −\n
+●	Merge Sort\n
+●	Quick Sort\n
+●	Binary Search\n
+●	Strassen's Matrix Multiplication\n
+●	Closest pair (points)\n\n
+13.What are some examples of dynamic programming algorithms?\n\n
+The below given problems find their solution using divide and conquer algorithm approach −\n
+●	Fibonacci number series\n
+●	Knapsack problem\n
+●	Tower of Hanoi\n
+●	All pair shortest path by Floyd-Warshall\n
+●	Shortest path by Dijkstra\n
+●	Project scheduling\n\n
+14.What is a linked-list?\n\n
+A linked-list is a list of data-items connected with links i.e. pointers or references. Most modern high-level programming language does not provide the feature of directly accessing memory location, therefore, linked-list are not supported in them or available in form of inbuilt functions.\n\n
+15What is stack? \n\n
+In data-structure, stack is an Abstract Data Type (ADT) used to store and retrieve values in Last In First Out method.\n\n
+16.Why do we use stacks?\n\n
+Stacks follows LIFO method and addition and retrieval of a data item takes only Ο(n) time. Stacks are used where we need to access data in the reverse order or their arrival. Stacks are used commonly in recursive function calls, expression parsing, depth first traversal of graphs etc.\n\n
+17.What operations can be performed on stacks? \n\n
+The below operations can be performed on a stack −\n
+●	push() − adds an item to stack\n
+●	pop() − removes the top stack item\n
+●	peek() − gives value of top item without removing it\n
+●	isempty() − checks if stack is empty\n
+●	isfull() − checks if stack is full\n\n
+18.What is a queue in data-structure?\n\n
+Queue is an abstract data structure, somewhat similar to stack. In contrast to stack, queue is opened at both end. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out methodology, i.e., the data item stored first will be accessed first.\n\n
+19.Why do we use queues?\n\n
+As queues follows FIFO method, they are used when we need to work on data-items in exact sequence of their arrival. Every operating system maintains queues of various processes. Priority queues and breadth first traversal of graphs are some examples of queues.\n\n
+20.What operations can be performed on Queues? \n\n
+The below operations can be performed on a stack −\n
+●	enqueue() − adds an item to rear of the queue\n
+●	dequeue() − removes the item from front of the queue\n
+●	peek() − gives value of front item without removing it\n
+●	isempty() − checks if stack is empty\n
+●	isfull() − checks if stack is full\n\n
+21.What is linear searching?\n\n
+Linear search tries to find an item in a sequentially arranged data type. These sequentially arranged data items known as array or list, are accessible in incrementing memory location. Linear search compares expected data item with each of data items in list or array. The average case time complexity of linear search is Ο(n) and worst case complexity is Ο(n2). Data in target arrays/lists need not to be sorted.\n\n
+22.What is binary search?\n\n
+A binary search works only on sorted lists or arrays. This search selects the middle which splits the entire list into two parts. First the middle is compared.\n
+This search first compares the target value to the mid of the list. If it is not found, then it takes decision on whether.\n\n
+23.What is bubble sort and how bubble sort works?\n\n
+Bubble sort is comparison based algorithm in which each pair of adjacent elements is compared and elements are swapped if they are not in order. Because the time complexity is Ο(n2), it is not suitable for large set of data.\n\n
+24.Tell me something about 'insertion sort'?\n\n
+Insertion sort divides the list into two sub-list, sorted and unsorted. It takes one element at time and finds it appropriate location in sorted sub-list and insert there. The output after insertion is a sorted sub-list. It iteratively works on all the elements of unsorted sub-list and inserts them to sorted sub-list in order.\n\n
+25.What is selection sort?\n\n
+Selection sort is in-place sorting technique. It divides the data set into two sub-lists: sorted and unsorted. Then it selects the minimum element from unsorted sub-list and places it into the sorted list. This iterates unless all the elements from unsorted sub-list are consumed into sorted sub-list.\n\n
+26.How insertion sort and selection sorts are different?\n\n
+Both sorting techniques maintains two sub-lists, sorted and unsorted and both take one element at a time and places it into sorted sub-list. Insertion sort works on the current element in hand and places it in the sorted array at appropriate location maintaining the properties of insertion sort. Whereas, selection sort searches the minimum from the unsorted sub-list and replaces it with the current element in hand.\n\n
+27.What is merge sort and how it works?\n\n
+Merge sort is sorting algorithm based on divide and conquer programming approach. It keeps on dividing the list into smaller sub-list until all sub-list has only 1 element. And then it merges them in a sorted way until all sub-lists are consumed. It has run-time complexity of Ο(n log n) and it needs Ο(n) auxiliary space.\n\n
+28.What is shell sort?\n\n
+Shell sort can be said a variant of insertion sort. Shell sort divides the list into smaller sublist based on some gap variable and then each sub-list is sorted using insertion sort. In best cases, it can perform upto Ο(n log n).\n\n
+29.How quick sort works?\n\n
+Quick sort uses divide and conquer approach. It divides the list in smaller 'partitions' using 'pivot'. The values which are smaller than the pivot are arranged in the left partition and greater values are arranged in the right partition. Each partition is recursively sorted using quick sort.\n\n
+30.What is a graph?\n\n
+A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.\n\n
+31.How depth first traversal works? \n\n
+Depth First Search algorithm(DFS) traverses a graph in a depthward motion and uses a stack to remember to get the next vertex to start a search when a dead end occurs in any iteration.\n\n
+32.How breadth first traversal works?\n\n
+Breadth First Search algorithm(BFS) traverses a graph in a breadthwards motion and uses a queue to remember to get the next vertex to start a search when a dead end occurs in any iteration.\n\n
+33.What is a tree? \n\n
+A tree is a minimally connected graph having no loops and circuits.\n\n
+34.What is a binary tree?\n\n
+A binary tree has a special condition that each node can have two children at maximum.\n\n
+35.What is a binary search tree?\n\n
+A binary search tree is a binary tree with a special provision where a node's left child must have value less than its parent's value and node's right child must have value greater than it's parent value.\n\n
+36.What is tree traversal?\n\n
+Tree traversal is a process to visit all the nodes of a tree. Because, all nodes are connected via edges (links) we always start from the root (head) node. There are three ways which we use to traverse a tree −\n
+●	In-order Traversal\n
+●	Pre-order Traversal\n
+●	Post-order Traversal\n
+See the below image of a binary search tree, and traverse it using all available methods −  What is an AVL Tree? \n\n
+AVL trees are height balancing binary search tree. AVL tree checks the height of left and right sub-trees and assures that the difference is not more than 1. This difference is called Balance Factor.\n\n
+BalanceFactor = height(left-sutree) − height(right-sutree)\n\n
+37.What is a spanning tree?\n\n
+A spanning tree is a subset of Graph G, which has all the vertices covered with minimum possible number of edges. A spanning tree does not have cycles and it can not be disconnected.\n\n
+38.How many spanning trees can a graph has?\n\n
+It depends on how connected the graph is. A complete undirected graph can have maximum nn-1 number of spanning trees, where n is number of nodes.\n\n
+39.How Kruskal's algorithm works?\n\n
+This algorithm treats the graph as a forest and every node it as an individual tree. A tree connects to another only and only if it has least cost among all available options and does not violate MST properties.\n\n
+40.How Prim's algorithm finds spanning tree?\n\n
+Prim's algorithm treats the nodes as a single tree and keeps on adding new nodes to the spanning tree from the given graph.\n\n
+41.What is a minimum spanning tree (MST) ? \n\n
+In a weighted graph, a minimum spanning tree is a spanning tree that has minimum weight that all other spanning trees of the same graph.\n\n
+42.What is a heap in data structure?\n\n
+Heap is a special balanced binary tree data structure where root-node key is compared with its children and arranged accordingly. A min-heap, a parent node has key value less than its childs and a max-heap parent node has value greater than its childs.\n\n
+43.What is a recursive function? \n\n
+A recursive function is one which calls itself, directly or calls a function that in turn calls it. Every recursive function follows the recursive properties − base criteria where functions stops calling itself and progressive approach where the functions tries to meet the base criteria in each iteration.\n\n
+44.What is tower of hanoi?\n\n
+Tower of Hanoi, is a mathematical puzzle which consists of three tower (pegs) and more than one rings. All rings are of different size and stacked upon each other where the large disk is always below the small disk. The aim is to move the tower of disk from one peg to another, without breaking its properties.\n\n
+45.What is fibonacci series?\n\n
+Fibonacci Series generates subsequent number by adding two previous numbers. For example − 0 1 1 2 3 5 8 13.\n\n
+46.What is hashing?\n\n
+Hashing is a technique to convert a range of key values into a range of indexes of an array. By using hash tables, we can create an associative data storage where data index can be find by providing its key values.\n\n
+47.What is interpolation search technique? \n\n
+Interpolation search is an improved variant of binary search. This search algorithm works on the probing position of required value.\n\n
+What is the prefix and post fix notation of (a + b) * (c + d) ?\n\n
+Prefix Notation − * + a b + c d\n
+Postfix Notation − a b + c d + *\n\n
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

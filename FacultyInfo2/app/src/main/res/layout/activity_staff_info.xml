@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.staffInfo"
+
+
+    >
+
+    <TextView
+
+        android:id="@+id/heading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:scrollbars="vertical"
+        android:text="
+Head of the Department\n\n
+DR PARTHASARATHY\n
+               spcse@tce.edu\n\n
+ASSOCIATE PROFESSORS\n\n
+DR.N.MURALI\n\n
+              nmcse@tce.edu\n\n
+DR.D.JEYAMALA\n\n
+               djeyamala@gmail.com\n
+               djmcse@tce.edu\n\n
+DR.S.VIJAYALAKSHMI\n\n
+                   svlcse@tce.edu\n\n
+MR.R.SARAVANAN\n\n
+                    sarolak@yahoo.com\n\n
+MRS.K.MURUGESWARI\n\n
+                    kmcse@tce.edu\n\n
+DR.A.JOHNSANJEEVKUMAR\n\n
+                    ajscse@tce.edu\n\n
+DR.T.CHANDRAKUMAR\n\n
+                    tckcse@tce.edu\n\n
+DR.D.ANITHA\n\n
+                    anithad@tce.edu\n\n
+MR.E.VINOTHKUMAR\n\n
+                    vinothkumardgl@gmail.com\n\n
+MR.B.PRAVEENKUMAR\n\n
+                    praveenkumarphd@tce.edu\n\n
+
+"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="75dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="95dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/faculty" />
+
+
+
+</android.support.constraint.ConstraintLayout>

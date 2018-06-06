@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.dbms">
+
+    <TextView
+        android:id="@+id/dbms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:textColor="#000000"
+        android:text="DATABASE INTERVIEW QUESTIONS and  ANSWERS:\n\n
+
+1.	 What are the various kinds of interactions catered by DBMS?\n\n
+The various kind of interactions catered by DBMS are:\n
+•	Data definition\n
+•	Update\n
+•	Retrieval\n
+•	Administration\n\n
+
+2.	  Segregate database technology’s development.\n\n
+The development of database technology is divided into:\n
+•	Structure or data model\n
+•	Navigational model\n
+•	SQL/ relational model\n\n
+3.	  Who proposed the relational model?\n\n
+Edgar F. Codd proposed the relational model in 1970.\n\n
+4.	 Define Normalization.\n\n
+Organized data void of inconsistent dependency and redundancy within a database is called normalization.\n\n
+5.	  Enlist the advantages of normalizing database.\n\n
+Advantages of normalizing database are:\n
+•	No duplicate entries\n
+•	Saves storage space\n
+•	Boasts the query performances.\n\n
+6.	Define Denormalization.\n\n
+Boosting up database performance, adding of redundant data which in turn helps rid of complex data is called denormalization.\n\n
+7.	 Define DDL and DML.\n\n
+Managing properties and attributes of database is called Data Definition Language(DDL).\n
+Manipulating data in a database such as inserting, updating, deleting is defined as Data Manipulation Language. (DML)\n\n
+
+8.	 Enlist some commands of DDL.\n\n
+They are:\n
+CREATE:\n
+Create is used in the CREATE TABLE statement. Syntax is:\n
+CREATE TABLE [column name] ( [column definitions] ) [ table parameters]\n
+ALTER:\n
+It helps in modification of an existing object of database. Its syntax is:\n
+ALTER objecttype objectname parameters.\n
+DROP:\n
+It destroys an existing database, index, table or view. Its syntax is:\n
+DROP objecttype objectname.\n\n
+9.	 Define cursor.\n\n
+A database object which helps in manipulating data row by row representing a result set is called cursor.\n\n
+10.	  Enlist the cursor types.\n\n
+They are:\n
+•	Dynamic: it reflects changes while scrolling.\n
+•	Static: doesn’t reflect changes while scrolling and works on recording of snapshot.\n
+•	Keyset: data modification without reflection of new data is seen.\n\n
+11.	  Enlist the types of cursor.\n\n
+They types of cursor are:\n\n
+•	Implicit cursor: Declared automatically as soon as the execution of SQL takes place without the awareness of the user.\n
+•	Explicit cursor: Defined by PL/ SQL which handles query in more than one row.\n
+12.	  Define sub-query.\n\n
+A query contained by a query is called Sub-query.\n\n
+13.	  Why is group-clause used?\n\n
+Group-clause uses aggregate values to be derived by collecting similar data.\n
+14.	  Compare Non-clustered and clustered index\n\n
+Both having B-tree structure, non-clustered index has data pointers enabling one table many non-clustered indexes while clustered index is distinct for every table.\n\n
+
+
+15.	  Define Aggregate functions.\n\n
+Functions which operate against a collection of values and returning single value is called aggregate functions\n\n
+16.	What restrictions can you apply when you are creating views?\n\n
+Restrictions that are applied are:\n
+•	Only the current database can have views.\n
+•	You are not liable to change any computed value in any particular view.\n
+•	Integrity constants decide the functionality of INSERT and DELETE.\n
+•	Full-text index definitions cannot be applied.\n
+•	Temporary views cannot be created.\n
+•	Temporary tables cannot contain views.\n
+•	No association with DEFAULT definitions.\n
+•	Triggers such as INSTEAD OF is associated with views.\n\n
+
+17.	 Define Data Warehousing.\n\n
+Storage and access of data from the central location in order to take some strategic decision is called Data Warehousing. Enterprise management is used for managing the information whose framework is known as Data Warehousing.\n\n
+
+18.	Define Fragmentation.\n\n
+Fragmentation can be defined as a database feature of server that promotes control on data which is stored at table level by the user.\n\n
+19.	Differentiate Nested Loop, Hash Join and Merge Join.\n
+Nested loop (loop over loop)\n
+An outer loop within an inner loop is formed consisting of fewer entries and then for individual entry, inner loop is individually processed.\n
+E.g.\n
+•	Select col1.*, col2.* from coll, col2 where coll.col1=col2.col2;\n
+It’s processing takes place in this way:\n
+For i in (select * from col1) loop\n
+For j in (select * from col2 where col2=i.col1) loop\n
+Results are displayed;\n
+End of the loop;\n
+End of the loop;\n
+The Steps of nested loop are:\n
+•	Identify outer (driving) table\n
+•	Assign inner (driven) table to outer table.\n
+•	For every row of outer table, access the rows of inner table.\n
+Nested Loops is executed from the inner to the outer as:\n
+•	outer_loop\n
+•	inner_loop\n
+•	Hash join\n
+While joining large tables, the use of Hash Join is preferred.\n
+Algorithm of Hash Join is divided into:\n
+•	Build: It is a hash table having in-memory which is present on the smaller table.\n
+•	Probe: this hash value of the hash table is applicable for each second row element.\n
+•	Sort merge join\n
+Two independent sources of data are joined in sort merge join. They performance is better as compared to nested loop when the data volume is big enough but it is not good as hash joins generally.\n
+The full operation can be divided into parts of two:\n
+Sort join operation :\n
+Get first row R1 from input1\n
+Get first row R2 from input2.\n
+Merge join operation:\n
+‘while’ is not present at either loop’s end.\n
+if R1 joins with R2\n
+next row is got R2 from the input 2\n
+return (R1, R2)\n
+else if R1  style=withinquotes next row is got from R1 from input 1\n
+else\n
+next row is got from R2 from input 2\n
+end of the loop\n\n
+20.	What is Database partitioning?\n\n
+Division of logical database into independent complete units for improving its management, availability and performance is called Database partitioning.\n\n
+21.	Explain the importance of partitioning.\n\n
+Splitting of one table which is large into smaller database entities logically is called database partitioning. Its benefits are:\n
+•	To improve query performance in situations dramatically when mostly rows which are heavily accessed are in one partition.\n
+•	Accessing large parts of a single partition\n
+•	Slower and cheaper storage media can be used for data which is seldom used.\n\n
+
+22.	What do you mean by Query Evaluation Engine?\n\n
+Query Evaluation Engine executes the low-level instructions that are generated by the compiler.\n\n
+23.	 Define DDL Interpreter.\n\n
+DDL statements are interpreted and recorded in tables called metadata.\n\n
+24.	  Define Atomicity and Aggregation.\n\n
+Atomicity: It’s an all or none concept which enables the user to be assured of incomplete transactions to be taken care of. The actions involving incomplete transactions are left undone in DBMS.\n
+Aggregation: The collected entities and their relationship are aggregated in this model. It is mainly used in expressing relationships within relationships.\n
+25.	 Define Entity.\n\n
+It can be defined as being a ‘thing’ with an independent existence in the real world.\n\n
+26.	  What do you mean by Entity type?\n\n
+A set of entries having similar attributes are entity types.\n\n
+27.	  Define Entity Set.\n\n
+Compilation of all entries of any particular type of entry in the database is called Entity Set.\n\n
+28.	  What do you mean by Entity type extension?\n\n
+Compilation of similar entity types into one particular type which is grouped together as an entity set.\n\n
+29.	What are the disadvantage in File Processing System?\n\n
+1.	Data redundancy and inconsistency.\n
+2.	Difficult in accessing data.\n
+3.	Data isolation.\n
+4.	Data integrity.\n
+5.	Concurrent access is not possible.\n
+6.	Security Problems.\n\n
+30.	Describe the three levels of data abstraction?\n\n
+The are three levels of abstraction:\n
+a.	Physical level: The lowest level of abstraction describes how data are stored.\n
+b.	Logical level: The next higher level of abstraction, describes what data are stored in database and what relationship among those data.\n
+c.	View level: The highest level of abstraction describes only part of entire database.\n\n
+31.	What is extension and intension?\n\n
+1.	Extension: It is the number of tuples present in a table at any instance. This is time dependent.\n
+2.	Intension: It is a constant value that gives the name, structure of table and the constraints laid on it.\n\n
+
+32.	What is Data Independence?\n\n
+Data independence means that the application is independent of the storage structure and access strategy of data . In other words, The ability to modify the schema definition in one level should not affect the schema definition in the next higher level.\n
+Two types of Data Independence:\n\n
+a.	Physical Data Independence: Modification in physical level should not affect the logical level.\n
+b.	Logical Data Independence: Modification in logical level should affect the view level.\n
+NOTE: Logical Data Independence is more difficult to achieve\n\n
+33.	What is a view? How it is related to data independence?\n\n
+A view may be thought of as a virtual table, that is, a table that does not really exist in its own right but is instead derived from one or more underlying base table. In other words, there is no stored file that direct represents the view instead a definition of view is stored in data dictionary. \n\n
+
+Growth and restructuring of base tables is not reflected in views. Thus the view can insulate users from the effects of restructuring and growth in the database. Hence accounts for logical data independence.\n\n
+34.	What is cold backup and hot backup (in case of Oracle)?\n\n
+1.	Cold Backup: It is copying the three sets of files (database files, redo logs, and control file) when the instance is shut down. This is a straight file copy, usually from the disk directly to tape. You must shut down the instance to guarantee a consistent copy. If a cold backup is performed, the only option available in the event of data file loss is restoring all the files from the latest backup. All work performed on the database since the last backup is lost.\n
+2.	Hot Backup: Some sites (such as worldwide airline reservations systems) cannot shut down the database while making a backup copy of the files. The cold backup is not an available option.\n\n
+35.	What is 1 NF (Normal Form)?\n\n
+The first normal form or 1NF is the first and the simplest type of normalization that can be implemented in a database. The main aims of 1NF are to:
+1. Eliminate duplicative columns from the same table.\n
+2.. Create separate tables for each group of related data and identify each row with a unique column (the primary key).\n\n
+
+36.	  What is Fully Functional dependency?\n\n
+A functional dependency X Y is full functional dependency if removal of any attribute A from X means that the dependency does not hold any more.\n\n
+
+37.	17. What is 2NF?\n\n
+A relation schema R is in 2NF if it is in 1NF and every non-prime attribute A in R is fully functionally dependent on primary key.\n\n
+
+38.	 What is 3NF?\n\n
+A relation is in third normal form if it is in Second Normal Form and there are no functional (transitive) dependencies between two (or more) non-primary key attributes.\n\n
+
+39.	 What is BCNF (Boyce-Codd Normal Form)?\n\n
+A table is in Boyce-Codd normal form (BCNF) if and only if it is in 3NF and every determinant is a candidate key.\n\n
+
+40.	 What is a query?\n\n
+A query with respect to DBMS relates to user commands that are used to interact with a data base.\n\n
+
+41.	 What is meant by query optimization?\n\n
+The phase that identifies an efficient execution plan for evaluating a query that has the least estimated cost is referred to as query optimization.\n\n
+
+42.	 What is an attribute?\n\n
+It is a particular property, which describes the entity.\n\n
+
+43.	 What is RDBMS?\n\n
+Relational Data Base Management Systems (RDBMS) are database management systems that maintain data records and indices in tables.\n\n
+
+44.	. What is difference between DBMS and RDBMS?\n\n
+DBMS provides a systematic and organized way of storing, managing and retrieving from collection of logically related information. RDBMS also provides what DBMS provides but above that it provides relationship integrity.\n\n
+
+45.	 What is SQL?\n\n
+SQL stands for Structured Query Language. SQL is an ANSI (American National Standards Institute) standard computer language for accessing and manipulating database systems. SQL statements are used to retrieve and update data in a database.\n\n
+
+46.	 What is Stored Procedure?\n\n
+A stored procedure is a named group of SQL statements that have been previously created and stored in the server database.\n\n
+
+47.	 What is a view?\n\n
+A view may be a subset of the database or it may contain virtual data that is derived from the database files but is not explicitly stored.\n\n
+
+48.	 What is Trigger?\n\n
+A trigger is a SQL procedure that initiates an action when an event (INSERT, DELETE or UPDATE) occurs.\n\n
+
+49.	 What is Index?\n\n
+An index is a physical structure containing pointers to the data.\n\n
+
+50.	 What is 4NF?\n\n
+Fourth normal form requires that a table be BCNF and contain no multi-valued dependencies.\n\n
+
+51.	What is 5NF?\n\n
+A table is in fifth normal form (5NF) or Project-Join Normal Form (PJNF) if it is in 4NF and it cannot have a lossless decomposition into any number of smaller tables.\n\n
+
+52.	Describe concurrency control?\n\n
+Concurrency control is the process managing simultaneous operations against a database so that database integrity is no compromised. There are two approaches to concurrency control.\n
+The pessimistic approach involves locking and the optimistic approach involves versioning.\n\n
+53.	Explain the difference between two and three-tier architectures?\n\n
+Three-tier architecture includes a client and two server layers.\n
+The   application code is stored on the application server and the database   is stored on the database server. A two-tier architecture includes a client and one server layer. The database is stored on the database server.\n\n
+54.	List some of the properties of a relation?\n\n
+Relations in a database have a unique name and no multivalued attributes exist. Each row is unique and each attribute within a relation has a unique name. The sequence of both columns and rows is irrelevant.\n\n
+55.	What is SQL Deadlock?\n\n
+Deadlock is a unique situation in a multi user system that causes two or more users to wait indefinitely for a locked resource.\n\n
+56.	What is data ware housing and OLAP?\n\n
+Data warehousing and OLAP (online analytical processing) systems are the techniques used in many companies to extract and analyze useful  information from very large databases for decision making .\n\n
+
+57.	 Describe the three levels of data abstraction?\n\n
+Physical level: The lowest level of abstraction describes how data are stored.\n
+Logical level: The next higher level of abstraction, describes what data are stored in database and what relationship among those data.\n
+View level: The highest level of abstraction describes only part of entire database.\n\n
+58.	What is difference between DELETE and TRUNCATE commands?\n\n
+Delete command removes the rows from a table based on the condition that we provide with a WHERE clause. Truncate will actually remove all the rows from a table and there will be no data in the table after we run the truncate command.\n\n
+
+59.	What is Hashing technique?\n\n
+This is a primary file organization technique that provides very fast access to records on certain search conditions.\n\n
+
+
+60.	Explain the differences between structured data and unstructured data.\n
+Structured data are facts concerning objects and events. The most important structured data are numeric, character, and dates.\n
+Structured data are stored in tabular form. Unstructured data are multimedia data such as documents, photographs, maps, images, sound, and video clips. Unstructured data are most commonly found on Web servers and Web-enabled databases.\n\n
+
+61.  What are the major functions of the database administrator?\n\n
+Managing database structure, controlling concurrent processing, managing processing rights and responsibilities, developing database security, providing for database recovery, managing the DBMS and maintaining the data repository.\n\n
+
+62. What is a dependency graph?\n\n
+A dependency graph is a diagram that is used to portray the connections between database elements.\n\n
+
+63. Explain the difference between an exclusive lock and a shared lock?\n\n
+An exclusive lock prohibits other users from reading the locked resource; a shared lock allows other users to read the locked resource, but they cannot update it.\n\n
+
+64. Explain the paradigm mismatch between  SQL an application programming languages.\n\n
+SQL statements return a set of rows, while an application program works on one row at a time. To resolve this mismatch the results of  SQL statements are processed as pseudofiles, using a cursor or pointer to specify which row is being processed.\n\n
+
+65. Name four applications for triggers.\n
+(1)Providing default values, (2) enforcing data constraints,\n
+(3) Updating views and (4) enforcing referential integrity\n\n
+
+66. What are the advantages of using stored procedures?\n\n
+The advantages of stored procedures are (1) greater security, (2) decreased network traffic, (3) the fact that SQL can be optimized and (4) code sharing which leads to less work, standardized processing, and specialization among developers.\n\n
+
+67. Explain the difference between attributes and identifiers.
+Entities have attributes. Attributes are properties that describe the entity's characteristics. Entity instances have identifiers. Identifiers are attributes that name, or identify, entity instances.
+
+
+68. What is Enterprise Resource Planning (ERP), and what kind of a database is used in an ERP application?\n\n
+Enterprise Resource Planning (ERP) is an information system used in manufacturing companies and includes salest, inventory, production planning, purchasing and other business functions. An ERP system typically uses a multiuser database.\n\n
+69. Describe the difference between embedded and dynamic SQL?\n\n
+Embedded SQL is the process of including hard coded SQL statements. These statements do not change unless the source code is modified. Dynamic SQL is the process of generating SQL on the fly.The statements generated do not have to be the same each time.\n\n
+70. Explain a join between tables\n\n
+A join allows tables to be linked to other tables when a relationship between the tables exists. The relationships are established by using a common column in the tables and often uses the primary/foreign key relationship.\n\n
+
+71. Describe a subquery.\n\n
+A subquery is a query that is composed of two queries. The first query (inner query) is within the WHERE clause of the other query  (outer query).\n\n
+
+72. Compare a hierarchical and network database model?\n\n
+The hierarchical model is a top-down structure where each parent may have many children but each child can have only one parent. This model supports one-to-one and one-to-many relationships.\n
+The network model can be much more flexible than the hierarchical model since each parent can have multiple children but each child can also have multiple parents. This model supports one-to-one, one-to-many, and many-to-many relationships.\n\n
+
+73. Explain the difference between a dynamic and materialized view.\n\n
+A dynamic view may be created every time that a specific view is requested by a user. A materialized view is created and or updated infrequently and it must be synchronized with its associated base table(s).\n\n
+
+74. Explain what needs to happen to convert a relation to third normal form.\n\n
+First you must verify that a relation is in both first normal form and second normal form. If the relation is not, you must convert into second normal form. After a relation is in second normal form, you must remove all transitive dependencies.\n\n
+
+75. Describe the four types of indexes?\n\n
+A unique primary index is unique and is used to find and store a row. A nonunique primary index is not unique and is used to find a row but also where to store a row (based on its unique primary index). A unique secondary index is unique for each row and used to find table rows. A nonunique secondary index is not unique and used to find table rows.\n\n
+
+76. Explain minimum and maximum cardinality?\n\n
+Minimum cardinality is the minimum number of instances of an entity that can be associated with each instance of another entity.  Maximum cardinality is the maximum number of instances of an entity that can be associated with each instance of another entity.\n\n
+
+77. What is deadlock? How can it be avoided? How can it be resolved once it occurs?\n\n
+Deadlock occurs when two transactions are each waiting on a resource that the other transaction holds. Deadlock can be prevented by requiring transactions to acquire all locks at the same time; once it occurs, the only way to cure it is to abort one of the transactions and back out of partially completed work.\n\n
+
+78. Explain what we mean by an ACID transaction.\n\n
+An ACID transaction is one that is atomic, consistent, isolated, and durable. Durable means that database changes are permanent. Consistency can mean either statement level or transaction level consistency. With transaction level consistency, a transaction may not see its own changes.Atomic means it is performed as a unit.\n\n
+
+79.  Under  what conditions should indexes be used?\n\n
+Indexes can be created to enforce uniqueness, to facilitate sorting, and to enable fast retrieval by column values. A good candidate for an index is a column that is frequently used with equal conditions in WHERE clauses.\n\n
+
+80. What is difference between SQL and SQL SERVER?\n\n
+SQL is a language that provides an interface to RDBMS, developed by IBM. SQL SERVER is a RDBMS just like Oracle, DB2.\n\n
+
+81. What is Specialization?\n\n
+It is the process of defining a set of subclasses of an entity type where each subclass contain all the attributes and relationships of the parent entity and may have additional attributes and relationships which are specific to itself.\n\n
+
+82. What is generalization?\n\n
+It is the process of finding common attributes and relations of a number of entities and defining a common super class for them.\n\n
+
+83. What is Weak Entity set?\n\n
+When an entity set doesn't have sufficient attributes to form a primary key, and its primary key compromises of its partial key and primary key of its parent entity, then it is called Weak Entity set.\n\n
+84. What do you understand by query optimization?\n\n
+The term query optimization specifies an efficient execution plan for evaluating a query that has the least estimated cost.\n\n
+85. What is a tablespace?\n\n
+A database contains Logical Storage Unit called tablespaces. A tablespace is a set of related logical structures. Actually a tablespace groups related logical structures together.\n\n
+86. In the Oracle version 9.3.0.5.0, what does each number shows?\n\n
+Oracle version number refers:\n
+o	9 - Major database release number\n
+o	3 - Database maintenance release number\n
+o	0 - Application server release number\n
+o	5 - Component Specific release number\n
+o	0 - Platform Specific release number\n\n
+87. What is the relationship among database, tablespace and data file?\n\n
+An Oracle database contains one or more logical storage units called tablespaces. These tablespaces collectively store whole data of databases and each tablespace in Oracle database consists of one or more files called datafiles. These datafiles are physical structure that confirm with the operating system in which Oracle is running.\n\n
+88. What is a snapshot in Oracle database?\n\n
+A snapshot is a replica of a target master table from a single point-in-time. In simple words you can say, snapshot is a copy of a table on a remote database.\n\n
+89.How many memory layers are in the Oracle shared pool?\n\n
+Oracle shared pools contains two layers:\n
+1.	library cache\n
+2.	data dictionary cache\n\n
+
+90. What is save point in Oracle database?\n\n
+Save points are used to divide a transaction into smaller parts. It allows rolling back of a transaction. Maximum five save points are allowed. It is used to save our data, whenever you encounter an error you can roll back from the point where you save your SAVEPOINT.\n\n
+91. What is a synonym?\n\n
+A synonym is also known as alias for a table, view, sequence or program unit.\n\n
+92. What are the different types of synonyms?\n\n
+There are two types of synonyms or alias:\n
+Private: It can only accessed by the owner.\n
+Public: It can be accessed by any database user.\n\n
+
+93. What is the usage of synonyms?\n\n
+o	Synonym can be used to hide the real name and owner of an object.\n
+o	It provides public access to an object.\n
+o	It also provides location transparency for tables, views or program units of a remote database.\n
+o	It simplifies the SQL statements for database users.\n\n
+94. How do you store pictures in a database?\n\n
+Yes, you can store pictures in a database using Long Raw Data type. This data type is used to store binary data for 2 gigabytes of length. However, the table can have only one Long Raw data type.\n\n
+
+95. What is BLOB data type in Oracle?\n\n
+BLOB data type is a data type with varying length binary string. It is used to store two gigabytes memory. For BLOB data type, the length needs to be specified in bytes.\n\n
+
+96.  What is the difference between TRANSLATE and REPLACE in Oracle?\n\n
+Translate is used to substitute a character by character while Replace is used to substitute a single character with a word.\n
+97. How to convert a date to char in Oracle? Give one example.\n\n
+The to_char() function is used to convert date to character. You can also specify the format in which you want output.\n
+1.	SELECT to_char ( to_date ('12-12-2012', 'DD-MM-YYYY') , 'YYYY-MM-DD') FROM dual;  \n
+Or,
+2.	SELECT to_char ( to_date ('12-12-2012', 'DD-MM-YYYY') , 'DD-MM-YYYY') FROM dual;  \n\n
+98. What are the extensions used by Oracle reports?\n\n
+Oracle reports are use to make business enable with the facility to provide information of all level within or outside in a secure way. Oracle report uses REP files and RDF file extensions.\n\n
+99. What is Logical backup in Oracle?\n\n
+Logical backup is used to read a set of database records and writing them into a file. An Export utility is used to take the backup while an Import utility is used to recover from the backup.\n\n
+100. How do you find current date and time in Oracle?\n\n
+The SYSDATE() function is used in Oracle to find the current date and time of operating system on which the database is running.\n
+SELECT TO_CHAR (SYSDATE, 'MM-DD-YYYY HH24:MI:SS')  Current_Date FROM DUAL;\n\n
+
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

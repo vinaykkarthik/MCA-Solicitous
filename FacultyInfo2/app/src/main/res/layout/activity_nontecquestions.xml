@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.nontecquestions">
+
+    <TextView
+        android:id="@+id/nontec1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:text="Review these typical interview questions and think about how you would answer them. Read
+the questions listed; you will also find some strategy suggestions with it.\n\n
+
+1. Tell me about yourself:\n\n
+The most often asked question in interviews. You need to have a short statement prepared\n
+in your mind. Be careful that it does not sound rehearsed. Limit it to work-related items\n
+unless instructed otherwise. Talk about things you have done and jobs you have held that\n
+relate to the position you are interviewing for. Start with the item farthest back and work up\n
+to the present.\n\n
+
+2. Why did you leave your last job?\n\n
+Stay positive regardless of the circumstances. Never refer to a major problem with\n
+management and never speak ill of supervisors, co-workers or the organization. If you do,\n
+you will be the one looking bad. Keep smiling and talk about leaving for a positive reason\n
+such as an opportunity, a chance to do something special or other forward-looking reasons.\n\n
+
+3. What experience do you have in this field?\n\n
+Speak about specifics that relate to the position you are applying for. If you do not have\n
+specific experience, get as close as you can.\n\n
+
+4. Do you consider yourself successful?\n\n
+You should always answer yes and briefly explain why. A good explanation is that you have\n
+set goals, and you have met some and are on track to achieve the others.\n\n
+
+5. What do co-workers say about you?\n\n
+Be prepared with a quote or two from co-workers. Either a specific statement or a\n
+paraphrase will work. Jill Clark, a co-worker at Smith Company, always said I was the\n
+hardest workers she had ever known. It is as powerful as Jill having said it at the interview\n
+herself.\n\n
+
+6. What do you know about this organization?\n\n
+This question is one reason to do some research on the organization before the interview.\n
+Find out where they have been and where they are going. What are the current issues and\n
+who are the major players?\n\n
+
+7. What have you done to improve your knowledge in the last year?\n\n
+Try to include improvement activities that relate to the job. A wide variety of activities can\n
+be mentioned as positive self-improvement. Have some good ones handy to mention.\n\n
+
+8. Are you applying for other jobs?\n\n
+Be honest but do not spend a lot of time in this area. Keep the focus on this job and what\n
+you can do for this organization. Anything else is a distraction.\n\n
+
+9. Why do you want to work for this organization?\n\n
+This may take some thought and certainly, should be based on the research you have done\n
+on the organization. Sincerity is extremely important here and will easily be sensed. Relate\n
+it to your long-term career goals.\n\n
+
+10. Do you know anyone who works for us?\n\n
+Be aware of the policy on relatives working for the organization. This can affect your answer\n
+even though they asked about friends not relatives. Be careful to mention a friend only if\n
+they are well thought of.\n\n
+
+11. What kind of salary do you need?\n\n
+A loaded question. A nasty little game that you will probably lose if you answer first. So, do\n
+not answer it. Instead, say something like, That's a tough question. Can you tell me the\n
+range for this position? In most cases, the interviewer, taken off guard, will tell you. If not,\n
+say that it can depend on the details of the job. Then give a wide range.\n\n
+
+12. Are you a team player?\n\n
+You are, of course, a team player. Be sure to have examples ready. Specifics that show you\n
+often perform for the good of the team rather than for yourself are good evidence of your\n
+team attitude. Do not brag, just say it in a matter-of-fact tone. This is a key point.\n\n
+
+13. How long would you expect to work for us if hired?\n\n
+Specifics here are not good. Something like this should work: I'd like it to be a long time. Or\n
+As long as we both feel I'm doing a good job.\n\n
+
+14. Have you ever had to fire anyone? How did you feel about that?\n\n
+This is serious. Do not make light of it or in any way seem like you like to fire people. At the\n
+same time, you will do it when it is the right thing to do. When it comes to the organization\n
+versus the individual who has created a harmful situation, you will protect the organization.\n
+Remember firing is not the same as layoff or reduction in force.\n\n
+
+15. What is your philosophy towards work?\n\n
+The interviewer is not looking for a long or flowery dissertation here. Do you have strong\n
+feelings that the job gets done? Yes. That's the type of answer that works best here. Short\n
+and positive, showing a benefit to the organization.\n\n
+
+16. If you had enough money to retire right now, would you?\n\n
+Answer yes if you would. But since you need to work, this is the type of work you prefer. Do\n
+not say yes if you do not mean it.\n\n
+
+17. Have you ever been asked to leave a position?\n\n
+If you have not, say no. If you have, be honest, brief and avoid saying negative things\n
+about the people or organization involved.\n\n
+
+18. Explain how you would be an asset to this organization\n\n
+You should be anxious for this question. It gives you a chance to highlight your best points\n
+as they relate to the position being discussed. Give a little advance thought to this\n
+relationship.\n\n
+
+19. Why should we hire you?\n\n
+Point out how your assets meet what the organization needs.\n
+Do not mention any othercandidates to make a comparison.\n\n
+20. Tell me about a suggestion you have made\n\n
+Have a good one ready. Be sure and use a suggestion that was accepted and was then\n
+considered successful. One related to the type of work applied for is a real plus.\n\n
+
+21. What irritates you about co-workers?\n\n
+This is a trap question. Think real hard but fail to come up with anything that irritates you.\n
+A short statement that you seem to get along with folks is great.\n\n
+
+22. What is your greatest strength?\n\n
+Numerous answers are good, just stay positive. A few good examples:\n
+Your ability to prioritize, Your problem-solving skills, Your ability to work under pressure,\n
+Your ability to focus on projects, Your professional expertise, Your leadership skills, Your\n
+positive attitude .\n\n
+
+23. Tell me about your dream job.\n\n
+Stay away from a specific job. You cannot win. If you say the job you are contending for is\n
+it, you strain credibility. If you say another job is it, you plant the suspicion that you will be\n
+dissatisfied with this position if hired. The best is to stay genetic and say something like: A\n
+job where I love the work, like the people, can contribute and can't wait to get to work.\n\n
+
+24. Why do you think you would do well at this job?\n\n
+Give several reasons and include skills, experience and interest.\n\n
+
+25. What are you looking for in a job?\n\n
+See answer # 23\n\n
+
+26. What kind of person would you refuse to work with?\n\n
+Do not be trivial. It would take disloyalty to the organization, violence or lawbreaking to get\n
+you to object. Minor objections will label you as a whiner.\n\n
+
+27. What is more important to you: the money or the work?\n\n
+Money is always important, but the work is the most important. There is no better answer.\n\n
+
+28. What would your previous supervisor say your strongest point is?\n\n
+There are numerous good possibilities:\n
+Loyalty, Energy, Positive attitude, Leadership, Team player, Expertise, Initiative, Patience,\n
+Hard work, Creativity, Problem solver\n\n
+
+29. Tell me about a problem you had with a supervisor\n\n
+Biggest trap of all. This is a test to see if you will speak ill of your boss. If you fall for it and\n
+tell about a problem with a former boss, you may well below the interview right there. Stay\n
+positive and develop a poor memory about any trouble with a supervisor.\n\n
+
+30. What has disappointed you about a job?\n\n
+Don't get trivial or negative. Safe areas are few but can include:\n
+Not enough of a challenge. You were laid off in a reduction Company did not win a contract,\n
+which would have given you more responsibility.\n\n
+
+31. Tell me about your ability to work under pressure.\n\n
+You may say that you thrive under certain types of pressure. Give an example that relates\n
+to the type of position applied for.\n\n
+
+32. Do your skills match this job or another job more closely?\n\n
+Probably this one. Do not give fuel to the suspicion that you may want another job more\n
+than this one.\n\n
+
+33. What motivates you to do your best on the job?\n\n
+This is a personal trait that only you can say, but good examples are:\n
+Challenge, Achievement, Recognition\n\n
+
+34. Are you willing to work overtime? Nights? Weekends?\n\n
+This is up to you. Be totally honest.\n\n
+
+35. How would you know you were successful on this job?\n\n
+Several ways are good measures:\n
+You set high standards for yourself and meet them. Your outcomes are a success.Your boss\n
+tell you that you are successful\n\n
+
+36. Would you be willing to relocate if required?\n\n
+You should be clear on this with your family prior to the interview if you think there is a\n
+chance it may come up. Do not say yes just to get the job if the real answer is no. This can\n
+create a lot of problems later on in your career. Be honest at this point and save yourself\n
+future grief.\n\n
+
+37. Are you willing to put the interests of the organization ahead of your own?\n\n
+This is a straight loyalty and dedication question. Do not worry about the deep ethical and\n
+philosophical implications. Just say yes.\n\n
+
+38. Describe your management style.\n\n
+Try to avoid labels. Some of the more common labels, like progressive, salesman or\n
+consensus, can have several meanings or descriptions depending on which management\n
+expert you listen to. The situational style is safe, because it says you will manage according\n
+to the situation, instead of one size fits all.\n\n
+
+39. What have you learned from mistakes on the job?\n\n
+Here you have to come up with something or you strain credibility. Make it small, well\n
+intentioned mistake with a positive lesson learned. An example would be working too far\n
+ahead of colleagues on a project and thus throwing coordination off.\n\n
+
+40. Do you have any blind spots?\n\n
+Trick question. If you know about blind spots, they are no longer blind spots. Do not reveal\n
+any personal areas of concern here. Let them do their own discovery on your bad points. Do\n
+not hand it to them.\n\n
+
+41. If you were hiring a person for this job, what would you look for?\n\n
+Be careful to mention traits that are needed and that you have.\n\n
+42. Do you think you are overqualified for this position?\n\n
+Regardless of your qualifications, state that you are very well qualified for the position.\n\n
+43. How do you propose to compensate for your lack of experience?\n\n
+First, if you have experience that the interviewer does not know about, bring that up: Then,\n
+point out (if true) that you are a hard working quick learner.\n\n
+
+44. What qualities do you look for in a boss?\n\n
+Be generic and positive. Safe qualities are knowledgeable, a sense of humor, fair, loyal to\n
+subordinates and holder of high standards. All bosses think they have these traits.\n\n
+
+45. Tell me about a time when you helped resolve a dispute between others.\n\n
+Pick a specific incident. Concentrate on your problem solving technique and not the dispute\n
+you settled.\n\n
+
+46. What position do you prefer on a team working on a project?\n\n
+Be honest. If you are comfortable in different roles, point that out.\n\n
+
+47. Describe your work ethic.\n\n
+Emphasize benefits to the organization. Things like, determination to get the job done and\n
+work hard but enjoy your work are good.\n\n
+
+48. What has been your biggest professional disappointment?\n\n
+Be sure that you refer to something that was beyond your control. Show acceptance and no\n
+negative feelings.\n\n
+
+49. Tell me about the most fun you have had on the job.\n\n
+Talk about having fun by accomplishing something for the organization.\n\n
+
+50. Do you have any questions for me?\n\n
+Always have some questions prepared. Questions prepared where you will be an asset to\n
+the organization are good. How soon will I be able to be productive? and What type of\n
+projects will I be able to assist on? are examples.\n\n"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</android.support.constraint.ConstraintLayout>

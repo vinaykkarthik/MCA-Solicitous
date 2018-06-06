@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.MainActivity">
+
+    <TextView
+        android:id="@+id/placements"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:scrollbars="vertical"
+        android:textSize="15dp"
+        android:text="2005-2008 Batch\n\n
+
+Total - 47\n\n
+
+TCS - 18\n\n
+CTS - 7\n\n
+Infosys - 3\n\n
+Keane - 6\n\n
+Inautix - 1\n\n
+Virtusa - 3\n\n
+Torry Harris - 1\n\n
+Multitech - 1\n\n
+Zoho - 1*\n\n
+HCL - 3\n\n
+Tetcos - 3\n\n
+Dual Placement\n\n
+
+Aricent - 3\n\n
+Thoughtworks - 1\n\n
+(* Off campus- Placed during the MCA course )\n\n
+
+ ***----------------***\n\n
+
+
+
+ 2006-2009 Batch\n\n
+
+Total - 51\n\n
+
+TCS - 41\n\n
+CTS - 1\n\n
+Inautix - 2\n\n
+Igate - 1\n\n
+Syntel - 2\n\n
+Zoho - 1\n\n
+Renault Nissan - 1\n\n
+Tetcos -1\n\n
+Sify - 1\n\n
+Dual Placement\n\n
+
+Aricent - 9\n\n
+IBM - 5\n\n
+Honey Well - 4 (Internship)\n\n
+Internship in TCS : Direct + Inhouse (30)\n\n
+
+
+ ***-----------------***\n\n
+
+
+
+2007-2010 Batch\n\n
+
+
+
+On Campus:\n\n
+
+Total: 30\n\n
+
+TCS - 15\n\n
+Infosys - 4\n\n
+Aricent - 2\n\n
+HCL- 4\n\n
+Igate - 1\n\n
+Inautix - 1\n\n
+Wipro - 1\n\n
+IBM - 2\n\n
+
+
+Dual Statistics:\n\n
+
+
+
+Dual Count: 2\n\n
+
+TCS + IBM - 2\n\n
+
+
+Off Campus:\n\n
+
+
+
+Metric stream 2\n\n
+CTS - 1\n\n
+TCS - 1\n\n
+Zoho - 1\n\n
+Sify - 1\n\n
+CLSS - 2\n\n
+
+
+ ***-----------------***\n\n
+
+
+
+2008-2011 Batch\n\n
+
+
+
+Total:36\n\n
+
+TCS-32\n\n
+Wipro-1\n\n
+Accenture-2\n\n
+HP-4(Dual-3,single-1)\n\n
+IBM-4(Dual)\n\n
+
+
+
+
+ ***----------------***\n\n
+
+
+
+2009-2012 Batch\n\n
+
+
+
+Total:45\n\n
+
+TCS-42\n\n
+Honeywell-5\n\n
+WIPRO-2\n\n
+Zoho-2\n\n
+Ericsson(R and D)-1\n\n
+Verizon Data Services-1\n\n
+Ericsson(Hardware Services)-1\n\n
+
+
+Dual Statistics:\n\n
+
+Dual Count:14\n\n
+
+TCS+IBM-5\n\n
+TCS+Honeywell- 4\n\n
+TCS+Ericsson(R and D)-1\n\n
+TCS+Ericsson(HS)-1\n\n
+TCS+Verizon-1\n\n
+TCS+Zoho-1\n\n
+Honeywell+Zoho-1\n\n
+
+
+ ***----------------***\n\n
+
+2010-2013 Batch\n\n
+
+
+
+Total:28\n\n
+
+TCS-13\n\n
+IBM-3\n\n
+WIPRO-5\n\n
+Inautix -2\n\n
+HCL -2\n\n
+Mind Tree -1\n\n
+CTS -1\n\n
+Zoho Intern-2\n\n
+Sun Tec Solution - 2\n\n
+HDFC Bank-1\n\n
+CLSS - 1\n\n
+
+
+Dual Statistics:\n\n
+
+Dual Count: 3\n\n
+
+TCS + IBM -1\n\n
+TCS + Zoho - 1\n\n
+Wipro + Zoho - 1\n\n
+*OFF Campus -placed during the MCA course - 2\n\n
+
+"
+
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

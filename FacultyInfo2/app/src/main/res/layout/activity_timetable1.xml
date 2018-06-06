@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.system__1.facultyinfo.timetable1">
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:scrollbars="vertical"
+        android:text="              Monday\n\n
+
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 17CA220\n\n
+
+SUBJECT NAME  : OBJECT ORIENTED PROGRAMMING USING C++\n\n
+
+
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 17CA240\n\n
+
+SUBJECT NAME  : OPERATING SYSTEMS\n\n
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+		LIBRARY\n\n
+
+
+Timing        : 12.15pm - 1.15pm\n\n
+
+SUBJECT CODE  : 17CA230\n\n
+
+SUBJECT NAME  : DESIGN AND ANALYSIS OF ALGORITHMS\n\n
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+SUBJECT CODE  : 17CA210\n\n
+
+SUBJECT NAME  : ORGANIZATIONAL BEHAVIOUR\n\n
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+SUBJECT CODE  : 17CA210\n\n
+
+SUBJECT CODE  : ORGANIZATIONAL BEHAVIOUR\n\n
+
+
+
+
+
+
+
+                Tuesday\n\n
+
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 17CA210\n\n
+
+SUBJECT NAME  : ORGANIZATIONAL BEHAVIOUR\n\n
+
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 17CA230\n\n
+
+SUBJECT NAME  : DESIGN AND ANALYSIS OF ALGORITHMS\n\n
+
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+SUBJECT CODE  : 17CA290\n\n
+
+SUBJECT NAME  : PROFESSIONAL COMMUNICATION\n\n
+
+
+TIMING        : 12.15pm - 1.15pm\n\n
+
+SUBJECT CODE  : 17CA290\n\n
+
+SUBJECT NAME  : PROFESSIONAL COMMUNICATION\n\n
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+		SEMINAR\n\n
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+SUBJECT CODE  : 17CA230(T)\n\n
+
+SUBJECT NAME  : DESIGN AND ANALYSIS OF ALGORITHMS\n\n
+
+
+              wednesday\n\n
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 17CA230\n\n
+
+SUBJECT NAME  : DESIGN AND ANALYSIS OF ALGORITHMS\n\n
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 17CA220\n\n
+
+SUBJECT NAME  : OBJECT ORIENTED PROGRAMMING USING C++\n\n
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+SUBJECT CODE  : 17CA240\n\n
+
+SUBJECT NAME  : OPERATING SYSTEMS\n\n
+
+
+TIMING        : 12.15pm - 1.15pm\n\n
+
+SUBJECT CODE  : 17CA220(T)\n\n
+
+SUBJECT NAME  : OBJECT ORIENTED PROGRAMMING USING C++\n\n
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+		PRE-PLACEMENT\n\n
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+		PRE-PLACEMENT\n\n
+
+
+
+               Thursday\n\n
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 17CA250\n\n
+
+SUBJECT NAME  : ACCOUNTING AND FINANCIAL MANAGEMENT\n\n
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 17CA250\n\n
+
+SUBJECT NAME  : ACCOUNTING AND FINANCIAL MANAGEMENT\n\n
+
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+SUBJECT CODE  : 17CA220\n\n
+
+SUBJECT NAME  : OBJECT ORIENTED PROGRAMMING USING C++\n\n
+
+
+TIMING        : 12.15pm - 1.15pm\n\n
+
+SUBJECT CODE  : 17CA240\n\n
+
+SUBJECT NAME  : OPERATING SYSTEMS\n\n
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+SUBJECT CODE  : 17CA270/17CA280\n\n
+
+SUBJECT NAME  : ALGORITHMS IMPLEMENTATION AND ANALYSIS USING LABORATORY\n\n
+
+	        C++ PROGRAMMING LABORATORY\n\n
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+SUBJECT CODE  : 17CA270/17CA280\n\n
+
+SUBJECT NAME  : ALGORITHMS IMPLEMENTATION AND ANALYSIS USING LABORATORY\n\n
+
+	        C++ PROGRAMMING LABORATORY\n\n
+
+
+
+               Friday\n\n
+
+
+
+TIMING        : 9.00am - 10.00am\n\n
+
+SUBJECT CODE  : 17CA240\n\n
+
+SUBJECT NAME  : OPERATING SYSTEMS\n\n
+
+
+TIMING        : 10.00am - 11.00am\n\n
+
+SUBJECT CODE  : 17CA250\n\n
+
+SUBJECT NAME  : ACCOUNTING AND FINANCIAL MANAGEMENT\n\n
+
+
+TIMING        : 11.15am - 12.15pm\n\n
+
+SUBJECT CODE  : 17CA270/17CA280\n\n
+
+SUBJECT NAME  : ALGORITHMS IMPLEMENTATION AND ANALYSIS USING LABORATORY\n\n
+
+	        C++ PROGRAMMING LABORATORY\n\n
+
+
+
+TIMING        : 12.15pm - 1.15pm\n\n
+
+SUBJECT CODE  : 17CA270/17CA280\n\n
+
+SUBJECT NAME  : ALGORITHMS IMPLEMENTATION AND ANALYSIS USING LABORATORY\n\n
+
+	        C++ PROGRAMMING LABORATORY\n\n
+
+
+
+TIMING        : 2.15pm - 3.15pm\n\n
+
+		STUD_CLUB\n\n
+
+
+
+TIMING        : 3.15pm - 4.15pm\n\n
+
+SUBJECT CODE  : 17CA250(T)\n\n
+
+SUBJECT NAME  : ACCOUNTING AND FINANCIAL MANAGEMENT\n\n
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239" />
+</android.support.constraint.ConstraintLayout>
